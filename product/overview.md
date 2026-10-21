@@ -13,7 +13,13 @@ Candidatos, por orden de encaje con esos criterios:
 2. Estudiantes universitarios con carga alta de memorización (fáciles de contactar, poca disposición a pagar).
 3. Profesionales en reskilling, perfiles técnicos y lifelong learners (sin urgencia clara).
 
-B2B (EdTech, universidades, bootcamps, L&D) queda fuera del primer usuario: se aborda cuando el valor esté probado en B2C.
+**Decisión de alcance (2026-10-21).** El segmento con examen con fecha acota el *descubrimiento*: a quién se entrevista, contra quién se miden las creencias y para quién se diseña primero. No acota el producto ni la comunicación:
+- **Producto:** general desde el inicio (repasar material, idiomas, recordar). El concepto central se generaliza como "un objetivo con fecha".
+- **Comunicación:** mensaje principal enfocado en el segmento con fecha (portada, onboarding, anuncios) y puertas abiertas visibles para otros usos, sin diseñar ni priorizar para ellos todavía.
+- **Otros públicos que lleguen:** se miden por separado como señal para enmarcar oportunidades siguientes (p. ej. idiomas), y su feedback no se mezcla con el del segmento principal.
+- La amplitud del mensaje sirve para crecer después de validar; no compensa que las creencias de valor no se sostengan en el segmento con fecha.
+
+**B2B (EdTech, academias, universidades, bootcamps, L&D) es una línea de exploración futura explícita**, no un descarte. Queda fuera del primer usuario y se enmarca como oportunidad propia (`/frame-opportunity`) cuando el valor esté probado en B2C. Punto de partida: la persona tertiary Dra. Patricia Lozano (academias de residencia) y el abandono a mitad de ciclo que ya ve en sus alumnos.
 
 ## Creencias no verificadas
 
@@ -24,5 +30,7 @@ Ordenadas por impacto × incertidumbre. La primera es la que hay que atacar ahor
 3. [product] [value] El usuario objetivo tiene momentos con las manos libres (transporte, ejercicio, tareas domésticas) y estaría dispuesto a usarlos para estudiar de forma activa, respondiendo en voz alta, en lugar de escuchar música, podcasts o descansar.
 4. [product] [value] Hay un segmento concreto, probablemente profesionales que preparan un examen con fecha y mucho en juego, en el que este dolor es bastante más agudo que en universitarios o lifelong learners, lo bastante como para cambiar de herramienta.
 5. [product] [viability] El usuario objetivo pagaría una suscripción mensual por la gestión autónoma sin límites. Hipótesis inicial: entre 8 y 15 USD al mes, el rango de Quizlet Plus y Duolingo Super. Precio aún sin validar.
+6. [opportunity: repaso-atrasado-examen-con-fecha] [viability] Quien paga lo hace durante todo su ciclo de preparación, no solo uno o dos meses, sea manteniendo una suscripción o pagando el ciclo completo por adelantado. Regla fijada antes de medir: si menos del 30 % de quienes pagan cubre el equivalente a 3 meses de precio (o hasta su examen, si llega antes), la creencia cae. Entre 30 y 50 % es zona gris: se sigue solo si el costo de adquisición estimado lo justifica. Con 50 % o más, se sostiene.
+7. [opportunity: repaso-atrasado-examen-con-fecha] [viability] Al terminar su examen, una parte relevante del segmento enfrenta otro objetivo de estudio con fecha en los 12 meses siguientes (otro examen, una recertificación, formación continua obligatoria), así que el cliente no se agota en un ciclo. Si menos del 20 % lo tiene, el modelo es de un solo ciclo y debe rentabilizarse por ciclo. Con 40 % o más, se sostiene. Entre ambos, zona gris.
 
 > Pendiente para la spec (factibilidad, fuera de este overview): que la IA genere buenas preguntas a partir de material heterogéneo y evalúe bien respuestas habladas sin alucinar (KPI System Accuracy Rate).
