@@ -28,7 +28,7 @@ Quienes preparan una evaluación con fecha (una certificación o los exámenes d
 | Las certificaciones que paga la empresa se posponen y el avance en los cursos se estanca a mitad de camino | synthetic | personas/juliana-ospina.md |
 | El segmento dispone de 1–2 h diarias de tiempo muerto (transporte público, pasear al perro, tareas mecánicas, ejercicio) | unverified | Planteamiento del usuario; las horas reales las mide la encuesta |
 | En Bogotá, el trayecto en transporte público es de unos 83 min de ida | secondary | research/2026-10-21-1739-repaso-atrasado-examen-con-fecha.md (CEPAL) |
-| La causa principal del abandono es la fatiga de decisión, no la falta de motivación ni de material | unverified | Planteamiento del usuario |
+| La causa principal del abandono es la fatiga de decisión, no la falta de motivación ni de material | unverified | Planteamiento del usuario; en tensión con el research: la literatura apunta a tiempo y obligaciones |
 | Las herramientas pasivas retienen poco: practicar recordando supera claramente a releer (g ≈ 0,61), y decirlo en voz alta suma poco por sí solo | secondary | research/2026-10-21-1739-repaso-atrasado-examen-con-fecha.md (metaanálisis de práctica de recuperación; efecto de producción) |
 | Las herramientas activas exigen pantalla y configuración manual | unverified | Planteamiento del usuario |
 | Las personas del segmento encadenan objetivos de estudio a lo largo del tiempo, no solo un examen | unverified | Observación del usuario, sin fuente nombrada |
@@ -59,6 +59,7 @@ Referencias a product/overview.md, el registro único:
 | #2 causa = organizar | Usuarios: encuesta y entrevistas |
 | #3 manos libres + voz alta | Usuarios: encuesta y entrevistas |
 | #4 segmento más agudo | Usuarios: encuesta, con grupo de comparación sin fecha |
+| #8 eficiencia del repaso activo | Usuarios: prueba de solución (comparar con su método actual) |
 | #5 precio 8–15 USD/mes | Negocio: prueba de pago real (lo que dicen que pagarían vale poco) |
 | #6 pago durante el ciclo | Negocio: retención de pago real |
 | #7 recurrencia | Usuarios en la encuesta (lo que esperan); después, negocio (lo que pasa de verdad) |
@@ -74,11 +75,11 @@ Las creencias #2 y #3 se mantienen separadas (decidido 2026-10-27): si una se so
 | #3 manos libres + voz alta | /design-survey (mismo instrumento): horas reales de tiempo muerto y qué hacen hoy en ellas → entrevistas sobre la última vez que intentaron estudiar en movimiento | Si el contexto móvil sin pantalla es el canal principal | 2026-12-09 |
 | #1 plan automático | /design-interview (con quienes den opt-in en la encuesta): qué hacen hoy con el cronograma de su curso, su posgrado o su plataforma de preparación, si lo siguen o lo abandonan, cuándo y qué hacen en su lugar | Si la gestión dinámica del plan es el valor central o el producto se queda en "preguntas por voz" | 2026-12-09 |
 | #7 recurrencia | /design-survey (mismo instrumento): cuántos objetivos con fecha tuvieron en los últimos 3 años, cuántos esperan en los próximos 12 meses y cómo pagaron su preparación | Si el modelo se rentabiliza por ciclo o por relación continua | 2026-12-09 |
-| #6 pago durante el ciclo | Prueba de solución pagada (concierge o Wizard of Oz) durante 3 meses, ofreciendo suscripción mensual y pago por ciclo, después de /explore-solutions | Qué modelo de cobro eligen; seguir, cambiar el modelo o pivotar a B2B | 2027-03 |
+| #6 pago durante el ciclo, #5 precio | Primer paso: preventa de 2–4 semanas con los dos modelos (mensual y "pase hasta tu examen"), con pago o reserva real. Después, si hace falta: prueba de solución pagada (concierge o Wizard of Oz) para medir si siguen pagando durante el ciclo; duración a definir según el ciclo (certificación o semestre de posgrado) | Qué modelo de cobro eligen y si pagan por adelantado; seguir, cambiar el modelo o pivotar a B2B | Sin fecha: solo si la encuesta y las entrevistas sostienen las creencias de valor; se decide después de /explore-solutions |
 
 Las fechas son una propuesta: no hay plazo definido, y una agenda sin fecha se vuelve una lista de lecturas.
 
-**Primer paso único (decidido 2026-10-27):** la encuesta, que cubre la causa del atraso (#2), el tiempo muerto con manos libres (#3) y la recurrencia (#7), con opt-in para entrevista (#1). Filtro: trabaja, vive en Colombia y tiene un examen de certificación o de posgrado con fecha en los próximos meses. También responden quienes estudian sin fecha, como grupo de comparación para #4, analizados por separado y sin mezclar sus respuestas. La encuesta pregunta en qué momentos concretos de tiempo muerto respondería en voz alta y en cuáles no (p. ej., transporte público lleno frente a pasear al perro). Tamaño de muestra y canales: por definir al diseñarla; con menos de unas 30 respuestas, orienta pero no permite afirmar porcentajes.
+**Primer paso único (decidido 2026-10-27):** la encuesta, que cubre la causa del atraso (#2), el tiempo muerto con manos libres (#3) y la recurrencia (#7), con opt-in para entrevista (#1). Filtro: trabaja, vive en Colombia y tiene un examen de certificación o de posgrado con fecha en los próximos meses. También responden quienes estudian sin fecha, como grupo de comparación para #4, analizados por separado y sin mezclar sus respuestas. Las causas del atraso se ofrecen con el mismo peso (falta de tiempo, falta de energía, no saber qué estudiar, material desordenado), para no sesgar hacia #2. La encuesta pregunta en qué momentos concretos de tiempo muerto respondería en voz alta y en cuáles no (p. ej., transporte público lleno frente a pasear al perro). Tamaño de muestra y canales: por definir al diseñarla; con menos de unas 30 respuestas, orienta pero no permite afirmar porcentajes.
 
 ## Ideas candidatas (no evaluadas)
 - Un sistema que asuma la planificación de la estrategia de retención y ejecute repasos activos por voz, sin pantalla, durante desplazamientos y tareas físicas (la propuesta original; coincide con el concepto actual de BrainWhisper).
