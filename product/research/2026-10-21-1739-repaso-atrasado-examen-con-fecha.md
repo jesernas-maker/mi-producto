@@ -90,7 +90,7 @@ Búsqueda web con 4 líneas en paralelo, consultada el 2026-10-21. Muchas fuente
 | PMI Study Hall | 49 / 79 USD | 3 meses | [verificado: https://www.pmi.org/shop/p-/digital-product/pmp-pmi-study-hall-plus-subscription/dp081 — 2026-10-21] |
 | Tutorials Dojo (AWS) | 14,99–17,99 USD | pago único por examen | [verificado: https://portal.tutorialsdojo.com/all-courses/ — 2026-10-21] |
 | Quizlet Plus | 7,99 USD/mes o 35,99 USD/año | mes / año | [verificado (3º): https://nibble-app.com/blog/quizlet-cost — 2026-10-21] |
-| Brainscape Pro | 19,99 USD mensual; 7,99 USD/mes anual | mes, semestre, año, de por vida | [verificado (3º) — 2026-10-21] |
+| Brainscape Pro | 19,99 USD mensual; 7,99 USD/mes anual | mes, semestre, año, de por vida | [verificado (3º) — sin URL; verificar antes de citar — 2026-10-21] |
 | RemNote Pro | ~8–10 USD/mes | mes / año | [verificado (3º): https://alpha.remnote.com/blog/knowt-alternatives — 2026-10-21] |
 | Duolingo Super (EE. UU.) | 13,99 USD/mes | mes | [verificado: https://cybernews.com/vpn-guides/buy-duolingo-plans-cheaper/ — 2026-10-21] |
 | Lecturio, TrueLearn, BoardVitals, Villamedic, AMIR | Desconocido | — | — |
@@ -104,10 +104,10 @@ Búsqueda web con 4 líneas en paralelo, consultada el 2026-10-21. Muchas fuente
 - **Renovación del plan anual en Education:** ~24 %. RevenueCat recomienda planes que duren lo mismo que la meta (un semestre, un examen) [verificado: https://www.revenuecat.com/blog/average-subscription-renewal-rates-by-app-category/ — 2026-10-21].
 - **Retención al mes 12 (Education, Adapty):** anual ~20 %, mensual ~15 %. Primera renovación, todas las categorías: 59,2 % [verificado: https://adapty.io/blog/education-app-subscription-benchmarks/ — 2026-10-21]. **Retención al mes 3 en Education: desconocida.**
 - **Conversión:**
-  - Descarga a trial en 30 días: mediana 6,5 %. Solo el 28,5 % de las conversiones ocurre el día 0 [verificado: RevenueCat Education — 2026-10-21].
+  - Descarga a trial en 30 días: mediana 6,5 %. Solo el 28,5 % de las conversiones ocurre el día 0 [verificado: https://www.revenuecat.com/state-of-subscription-apps-2026-education — 2026-10-21].
   - LatAm, descarga a pago a 35 días: ~1,5 % [verificado: misma fuente].
   - Duolingo: ~9 % de pago sobre usuarios activos mensuales (2T 2026, cálculo propio) [verificado: https://www.sec.gov/Archives/edgar/data/0001562088/000162828026053603/duol-20260630.htm — 2026-10-21].
-- **LTV:** Education, LTV medio a 12 meses de 45,10 USD. El de LatAm es ~35 % menor que el europeo [verificado: Adapty — 2026-10-21].
+- **LTV:** Education, LTV medio a 12 meses de 45,10 USD. El de LatAm es ~35 % menor que el europeo [verificado: https://adapty.io/blog/education-app-subscription-benchmarks/ — 2026-10-21].
 - **CAC de test prep:** desconocido. Como referencia direccional, LTV:CAC de 2:1–4:1 y recuperación en 6–18 meses [verificado (3º): https://www.saashero.net/strategy/edtech-marketing-metrics-2026/ — 2026-10-21].
 
 ## Recurrencia y tendencias

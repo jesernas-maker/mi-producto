@@ -4,6 +4,7 @@
 
 - **Role:** Ingeniero de software senior; estudia certificaciones de nube y japonés con un sistema que construyó él mismo
 - **Type:** negative
+- **Relación con el producto:** no lo usaría: quiere controlar su propio sistema de estudio.
 - **Age range:** 27–31
 - **Location:** Lima, Perú (trabaja remoto para una empresa extranjera)
 - **Industry:** Tecnología

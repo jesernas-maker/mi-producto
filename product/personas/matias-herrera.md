@@ -4,8 +4,9 @@
 
 - **Role:** Estudiante de segundo año de Derecho en una universidad pública
 - **Type:** secondary
+- **Relación con el producto:** lo usaría de forma intermitente, en las semanas previas a cada examen, y solo en el plan gratuito. Está en el borde del segmento: tiene fechas, pero no trabaja ni le falta tiempo de escritorio.
 - **Age range:** 19–22
-- **Location:** Santiago, Chile (vive con sus padres)
+- **Location:** Bogotá, Colombia (vive con sus padres)
 - **Industry:** Educación superior
 - **Technical literacy:** high
 - **Experience level:** novice
@@ -34,5 +35,5 @@
 ## Device preferences
 
 - Principal: iPhone de segunda mano, con AirPods.
-- Secundario: notebook antiguo para redactar trabajos.
+- Secundario: portátil antiguo para redactar trabajos.
 - Usa Notion, Google Drive, TikTok, Instagram y apps de IA gratuitas; se adapta rápido a cualquier interfaz.
