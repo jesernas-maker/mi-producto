@@ -179,7 +179,7 @@ Perfil de entrevista: grupos A o B, vive en Colombia y trabaja (F1–F3), y no q
 | Contactos de psicología y fisioterapia (grupos de cohorte o una profesora que la comparta; por definir) | Grupo B. Si la comparte una profesora, responde más gente pero puede sentirse como tarea | desconocido | por crear |
 | Colegas del trabajo (por definir) | Grupos A y C. Misma empresa y cultura de formación | desconocido | por crear |
 
-- **Meta:** grupo A, 10 respuestas; grupo B, 5 respuestas; grupo C y otros, sin meta. Con estas cifras, por debajo de 30 por grupo, los resultados son orientativos: se leen como patrones, no como porcentajes. El valor principal es detectar patrones y reclutar entrevistados.
+- **Meta:** grupo A, 10 respuestas; grupo B, 5 respuestas; grupo C, 5 respuestas (mínimo para comparar con A y B; por ahora); grupo D y otros, sin meta. Con estas cifras, por debajo de 30 por grupo, los resultados son orientativos: se leen como patrones, no como porcentajes. El valor principal es detectar patrones y reclutar entrevistados.
 - **Alcance:** desconocido en todos los canales. No se puede estimar si se llega a la meta; se revisa en la primera revisión.
 - **Estrategia (decidido 2026-10-30):** llegar a la mayor cantidad de personas posible por todos los canales; los nombres y el alcance de cada canal no se definen antes del envío.
 - **Envío:** tentativo, primera semana de noviembre de 2026.
