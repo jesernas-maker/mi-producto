@@ -118,14 +118,14 @@ P7. En cada uno de estos momentos, ¿alguna vez has hablado en voz alta para est
    - Haciendo tareas de la casa
    > Objetivo 1: comportamiento actual de estudiar en voz alta, por contexto.
 
-P8. Si pudieras repasar respondiendo preguntas en voz alta con audífonos, ¿qué tan cómodo te sentirías haciéndolo en cada momento? [matriz likert-5: Muy incómodo / Incómodo / Ni cómodo ni incómodo / Cómodo / Muy cómodo / No hago esta actividad; no obligatoria]
+P8. Si pudieras repasar respondiendo preguntas en voz alta con audífonos, ¿qué tan fácil o difícil te resultaría hacerlo en cada uno de estos momentos? [matriz likert-5: Muy difícil / Difícil / Ni fácil ni difícil / Fácil / Muy fácil / No hago esta actividad; no obligatoria]
    - En el transporte público
    - Caminando o paseando al perro
    - Haciendo ejercicio
    - Haciendo tareas de la casa
-   > Objetivo 1: en qué momentos sí y en cuáles no. Es una opinión, la única hipotética de la encuesta: pregunta por comodidad, no por intención de uso, y se lee junto con P7, nunca sola.
+   > Objetivo 1: en qué momentos sí y en cuáles no. Es una opinión, la única hipotética de la encuesta: pregunta por facilidad, no por intención de uso, y se lee junto con P7, nunca sola. El enunciado nombra los dos polos para no sugerir que puede ser incómodo, y "difícil" cubre vergüenza, ruido, cansancio o concentración; el porqué se explora en la entrevista.
 
-P9. En los últimos 3 años, ¿cuántos exámenes, certificaciones o evaluaciones importantes con fecha preparaste, contando la actual o la más reciente? [opción única]
+P9. En los últimos 3 años, ¿cuántos exámenes, certificaciones o evaluaciones importantes con fecha preparaste? Cuenta también la que estés preparando ahora, si tienes una. [opción única]
    - Ninguno
    - 1
    - 2
@@ -133,7 +133,7 @@ P9. En los últimos 3 años, ¿cuántos exámenes, certificaciones o evaluacione
    - 4 o más
    > Objetivo 4: recurrencia pasada (comportamiento).
 
-P10. En los próximos 12 meses, además de la actual, ¿tienes previsto preparar otro examen, certificación o evaluación con fecha? [opción única]
+P10. En los próximos 12 meses, ¿tienes previsto preparar un examen, certificación o evaluación con fecha (sin contar la que estés preparando ahora, si tienes una)? [opción única]
    - Sí, y ya tiene fecha
    - Sí, pero todavía sin fecha
    - Es posible
@@ -179,6 +179,7 @@ Perfil de entrevista: grupos A o B, vive en Colombia y trabaja (F1–F3), y no q
 
 - **Meta:** grupo A, 10 respuestas; grupo B, 5 respuestas; grupo C y otros, sin meta. Con estas cifras, por debajo de 30 por grupo, los resultados son orientativos: se leen como patrones, no como porcentajes. El valor principal es detectar patrones y reclutar entrevistados.
 - **Alcance:** desconocido en todos los canales. No se puede estimar si se llega a la meta; se revisa en la primera revisión.
+- **Estrategia (decidido 2026-10-30):** llegar a la mayor cantidad de personas posible por todos los canales; los nombres y el alcance de cada canal no se definen antes del envío.
 - **Envío:** tentativo, primera semana de noviembre de 2026.
 - **Primera revisión:** 2026-11-17 (tentativa): respuestas por canal y por grupo, y si hace falta insistir en algún canal.
 - **Cierre:** abierta hasta llegar a la meta o hasta el 2026-12-02 (tentativo), lo que ocurra primero, para analizar antes de la fecha de decisión del 2026-12-09.
