@@ -12,16 +12,17 @@ opportunity: repaso-atrasado-examen-con-fecha
   4. **Recurrencia y gasto** (creencia 7): cuántas evaluaciones con fecha tuvieron y esperan, y cuánto gastan hoy en prepararse. → Decide si el negocio se rentabiliza por ciclo o por relación larga.
 - **Fuera de alcance, a propósito:** si el repaso por voz rinde más (creencia 8: prueba de solución) y cuánto pagarían (creencia 5: preventa). Se pregunta el gasto actual, que es comportamiento.
 - **Encuestados:** adultos que trabajan y estudian. Nadie queda fuera: el filtro etiqueta a cada persona y el análisis separa por grupo.
-  - **Grupo A:** trabaja y prepara una certificación con examen agendado (persona de diseño: Andrés Molina).
+  - **Grupo A:** trabaja y prepara una certificación o un examen con fecha o plazo definido: certificación profesional, examen de idioma, de residencia o de ingreso, concurso (persona de diseño: Andrés Molina). F5 separa las certificaciones profesionales del resto.
   - **Grupo B:** trabaja y cursa un posgrado con exámenes con fecha (persona comparativa: Valentina Rojas).
   - **Grupo C:** trabaja y estudia algo sin fecha fija (grupo de comparación).
+  - **Grupo D:** cursa un pregrado, técnico o tecnológico con exámenes con fecha (borde del segmento: perfil de Matías Herrera); se analiza aparte.
   - **Aparte:** quienes no viven en Colombia, no trabajan o no estudian; se analizan por separado.
 - **Duración estimada:** 4 de filtro + 11 preguntas + 2 abiertas + 3 de entrevista; unos 7 minutos.
 
 ## Lógica de visualización
 
 - Todas las preguntas del filtro se muestran a todos; ninguna termina la encuesta.
-- **F4 y F5:** solo grupos A y B.
+- **F4 y F5:** solo grupos A, B y D.
 - **P1 a P4** (sobre su plan de estudio): se las salta quien marca "no estoy estudiando" en F3.
 - **P2:** solo a quien en P1 marca algún nivel de atraso.
 - El resto se muestra a todos.
@@ -44,13 +45,14 @@ F2. ¿Cuál es tu situación laboral actual? [opción única]
    > Objetivo: etiqueta; el segmento son adultos que trabajan y estudian.
 
 F3. ¿Cuál de estas opciones describe mejor lo que estás estudiando, o estudiaste en los últimos 6 meses? [opción única]
-   - Preparo una certificación con examen agendado → grupo A
+   - Preparo una certificación o un examen con fecha o plazo definido (certificación profesional, examen de idioma, examen de residencia o de ingreso, concurso) → grupo A
    - Curso un posgrado (especialización o maestría) con exámenes con fecha → grupo B
+   - Curso una carrera de pregrado, técnica o tecnológica con exámenes con fecha → grupo D
    - Estudio algo sin fecha fija (un curso a mi ritmo, idiomas, por mi cuenta) → grupo C
    - No estoy estudiando ni estudié en los últimos 6 meses
-   > Objetivo: asigna el grupo (objetivo 3).
+   > Objetivo: asigna el grupo (objetivo 3). "Fecha o plazo definido" incluye a quien aún no agenda el examen pero tiene un límite, para que no caiga en el grupo C. El grupo D queda fuera del segmento, pero se identifica para no contaminar el grupo C.
 
-F4. *(grupos A y B)* ¿Cuándo es tu próximo examen o evaluación importante, o cuándo fue el último? [opción única]
+F4. *(grupos A, B y D)* ¿Cuándo es tu próximo examen o evaluación importante, o cuándo fue el último? [opción única]
    - En el próximo mes
    - En 1 a 3 meses
    - En 3 a 6 meses
@@ -58,8 +60,8 @@ F4. *(grupos A y B)* ¿Cuándo es tu próximo examen o evaluación importante, o
    - Ya lo presenté, en los últimos 6 meses
    > Objetivo: marca en qué momento del ciclo está cada uno (objetivos 2 y 3).
 
-F5. *(grupos A y B)* ¿Qué certificación o posgrado es? [abierta corta, opcional]
-   > Objetivo: cortar por área (IA y datos, producto, psicología, fisioterapia…).
+F5. *(grupos A, B y D)* ¿Qué certificación, examen, posgrado o carrera es? [abierta corta, opcional]
+   > Objetivo: cortar por área (IA y datos, producto, psicología, fisioterapia…) y, en el grupo A, separar las certificaciones profesionales de los demás exámenes con fecha.
 
 ## Preguntas
 
