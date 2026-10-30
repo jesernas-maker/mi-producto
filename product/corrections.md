@@ -35,3 +35,37 @@ Primera revisión de evidencia: cubrió todo el historial (2026-10-07 a 2026-10-
   **AI proposed:** Una sola persona tertiary: directora de una academia de residencia médica en Ciudad de México.
   **Human decided:** Dos personas tertiary para el B2B futuro: Juliana Ospina, formación en empresas (opción A), y la Dra. Patricia Lozano, profesora y coordinadora de posgrado (opción B).
   **Why:** A está más alineada con la persona de diseño; B es a quien la PM puede llegar para entrevistar.
+
+## 2026-10-30
+
+Revisión de la encuesta (`/survey-design`) frente a las personas, hecha antes del envío. No es una `/review-evidence`: la próxima debe empezar a revisar desde la entrada del 2026-10-27.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Una meta de 10 respuestas para el grupo C (estudia sin fecha), igual que el grupo A.
+  **Human decided:** 5 respuestas por ahora.
+  **Why:** No se explicitó; queda como meta provisional.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Agregar "manejar carro o moto" a los ejemplos de tiempo muerto (P5) y a la matriz de estudio en voz alta (P7), sin incluirlo en la hipotética (P8); y agregar "usar el celular" a lo que hacen en esos momentos (P6).
+  **Human decided:** Nada sobre conducir; P5 a P8 quedan como estaban, también sin "usar el celular".
+  **Why:** No se explicitó en esta revisión; es coherente con la decisión del 2026-10-27 de no considerar la conducción como tiempo muerto por seguridad.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md, product/opportunities/2026-10-21-1203-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Contar la recurrencia por objetivo completo (cada certificación como uno y cada posgrado o carrera como uno solo), con las mismas P9 y P10 para todos.
+  **Human decided:** La unidad es el ciclo que se cobraría: el examen en el grupo A; la materia o, como mucho, el semestre en posgrado y carrera. P9 y P10 tienen dos versiones (P9b y P10b para los grupos B y D: materias por semestre y semestres restantes), con una pregunta nueva sobre la duración de la preparación para el grupo A (P10a). En la oportunidad, la idea de cobro por ciclo se redefine así.
+  **Why:** El cobro debe ser más pequeño y ligado al objetivo, y el research de mercado muestra que el segmento paga por ciclo, con planes que duran lo que dura la meta.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Un texto de bienvenida que nombraba a quienes preparan un examen, una certificación o un posgrado, y a quienes estudian sin fecha.
+  **Human decided:** Pidió opciones que minimizaran el sesgo y eligió la más amplia y neutra: no menciona atraso, voz, tiempo muerto ni el producto, ni privilegia un tipo de estudio.
+  **Why:** Minimizar al máximo el riesgo de sesgo en quién responde.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Dos caminos para los perfiles sin opción en el filtro (F3): ampliar el grupo A a cualquier examen con fecha, o dejarlo solo en certificaciones profesionales y dar opción propia a los demás.
+  **Human decided:** Ampliar el grupo A a certificación o examen con fecha o plazo definido (idioma, residencia, ingreso, concurso), y agregar el grupo D (pregrado, técnico o tecnológico).
+  **Why:** Que nadie con fecha caiga en el grupo de comparación; F5 permite separar después las certificaciones profesionales.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Ajustes de la revisión, aceptados tal como se propusieron: P1 redactada para quien ya terminó de estudiar; A1 solo para quien trabaja y estudia, y opcional; P11 como gasto de bolsillo, con dos "Nada" (pagó la empresa o una beca / solo recursos gratuitos); regla de análisis fijada antes de los datos para la causa "organizar" en P2; quitar la abierta sobre estudiar en movimiento (A2), con la encuesta bajando a unos 6 minutos; rangos de atraso sin hueco y redacción neutra en género en P1 y P2.
+  **Human decided:** Aceptados.
+  **Why:** Corrigen errores de diseño de la versión anterior de la encuesta (preguntas que no aplicaban a parte de los encuestados, opciones que se cruzaban, una medición sesgable y una duración por encima de la recomendada).

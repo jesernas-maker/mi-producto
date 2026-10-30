@@ -84,5 +84,5 @@ Las fechas son una propuesta: no hay plazo definido, y una agenda sin fecha se v
 ## Ideas candidatas (no evaluadas)
 - Un sistema que asuma la planificación de la estrategia de retención y ejecute repasos activos por voz, sin pantalla, durante desplazamientos y tareas físicas (la propuesta original; coincide con el concepto actual de BrainWhisper).
 - Modelo de cobro: suscripción mensual.
-- Modelo de cobro: pago por ciclo completo hasta la fecha del examen.
+- Modelo de cobro: pago por ciclo, con un pase que dura lo que dura la meta: hasta la fecha del examen en certificaciones; por materia o, como mucho, por semestre en posgrado y carrera (ajustado 2026-10-30, en línea con el research de mercado: el segmento de alto riesgo paga por ciclo por adelantado, y se recomiendan planes que duren lo que dura la meta).
 - Modelo de cobro: híbrido (ciclo completo más continuidad hacia el siguiente objetivo).

@@ -9,7 +9,7 @@ opportunity: repaso-atrasado-examen-con-fecha
   1. **Tiempo muerto y voz alta** (creencia 3, prioritaria): cuánto tiempo con manos libres tienen, qué hacen hoy en él y en qué momentos responderían en voz alta y en cuáles no. → Decide si estudiar por voz sin pantalla puede ser el canal principal, y en qué contextos.
   2. **Atraso y su causa** (creencia 2): cuántos van atrasados respecto a su plan, cuánto y por qué, con las causas en igualdad de peso. → Decide si la gestión del plan es central o apoyo; si gana la falta de tiempo, respalda la hipótesis de valor central.
   3. **Segmento más agudo** (creencia 4): si quienes tienen evaluación con fecha (grupos A y B) se atrasan más y cambian más de herramienta que quienes estudian sin fecha (grupo C). → Confirma o no el segmento con fecha como primer usuario.
-  4. **Recurrencia y gasto** (creencia 7): cuántas evaluaciones con fecha tuvieron y esperan, y cuánto gastan hoy en prepararse. → Decide si el negocio se rentabiliza por ciclo o por relación larga.
+  4. **Recurrencia y gasto** (creencia 7): cuántos ciclos con fecha tuvieron y esperan (exámenes en el grupo A; materias y semestres en B y D), cuánto dura cada ciclo y cuánto gastan hoy en prepararse. → Decide si el negocio se rentabiliza por ciclo o por relación larga.
 - **Fuera de alcance, a propósito:** si el repaso por voz rinde más (creencia 8: prueba de solución) y cuánto pagarían (creencia 5: preventa). Se pregunta el gasto actual, que es comportamiento.
 - **Encuestados:** adultos que trabajan y estudian. Nadie queda fuera: el filtro etiqueta a cada persona y el análisis separa por grupo.
   - **Grupo A:** trabaja y prepara una certificación o un examen con fecha o plazo definido: certificación profesional, examen de idioma, de residencia o de ingreso, concurso (persona de diseño: Andrés Molina). F5 separa las certificaciones profesionales del resto.
@@ -17,7 +17,7 @@ opportunity: repaso-atrasado-examen-con-fecha
   - **Grupo C:** trabaja y estudia algo sin fecha fija (grupo de comparación).
   - **Grupo D:** cursa un pregrado, técnico o tecnológico con exámenes con fecha (borde del segmento: perfil de Matías Herrera); se analiza aparte.
   - **Aparte:** quienes no viven en Colombia, no trabajan o no estudian; se analizan por separado.
-- **Duración estimada:** 4 de filtro + 11 preguntas + 2 abiertas + 3 de entrevista; unos 7 minutos.
+- **Duración estimada:** 5 de filtro + 11 preguntas (12 en el grupo A) + 1 abierta + 3 de entrevista; unos 6 minutos. Se quitó la abierta sobre estudiar en movimiento (2026-10-30): la cubren P7 y las entrevistas.
 
 ## Lógica de visualización
 
@@ -25,11 +25,13 @@ opportunity: repaso-atrasado-examen-con-fecha
 - **F4 y F5:** solo grupos A, B y D.
 - **P1 a P4** (sobre su plan de estudio): se las salta quien marca "no estoy estudiando" en F3.
 - **P2:** solo a quien en P1 marca algún nivel de atraso.
+- **P9 y P10:** grupos A y C, y quien no tiene grupo (no estudia). **P10a:** solo grupo A. **P9b y P10b:** grupos B y D, en lugar de P9 y P10.
+- **A1:** solo a quien trabaja (F2) y estudia o estudió en los últimos 6 meses (F3: grupos A, B, C o D).
 - El resto se muestra a todos.
 
 ## Texto de bienvenida (para el encuestado)
 
-> Estamos investigando cómo estudian las personas que trabajan: qué estudian, cómo organizan su tiempo y qué hacen en su día a día. No hay respuestas correctas ni incorrectas, y no importa si hoy estás estudiando algo o no. Son unos 7 minutos y tus respuestas son anónimas. Al final puedes dejar tu contacto si quieres conversar con nosotros, pero es opcional.
+> Estamos investigando cómo estudian las personas que trabajan: qué estudian, cómo organizan su tiempo y qué hacen en su día a día. No hay respuestas correctas ni incorrectas, y no importa si hoy estás estudiando algo o no. Son unos 6 minutos y tus respuestas son anónimas. Al final puedes dejar tu contacto si quieres conversar con nosotros, pero es opcional.
 
 Nota para el equipo: el texto no menciona atraso, voz, tiempo muerto ni el producto, y no privilegia un tipo de estudio, para no atraer más a un grupo que a otro. Los mensajes con que se comparte el link en cada canal deben mantener el mismo tono neutro.
 
@@ -68,21 +70,22 @@ F5. *(grupos A, B y D)* ¿Qué certificación, examen, posgrado o carrera es? [a
 ## Preguntas
 
 P1. Pensando en el último mes en que estuviste estudiando (este mes, si estás estudiando ahora), ¿cómo ibas respecto a lo que te habías propuesto? [opción única]
-   - Al día o adelantado
-   - Un poco atrasado (menos de una semana)
-   - Bastante atrasado (de una a tres semanas)
-   - Muy atrasado (más de un mes)
-   - No tengo un plan definido
+   - Al día o con adelanto
+   - Con un poco de atraso (menos de una semana)
+   - Con bastante atraso (entre una y tres semanas)
+   - Con mucho atraso (más de tres semanas)
+   - No tenía un plan definido
    > Objetivo 2 (cuántos y cuánto se atrasan) y 3 (A y B frente a C). Sirve a quien estudia ahora y a quien ya terminó; en el análisis, F4 ("Ya lo presenté") separa a quienes responden de memoria, que es menos preciso.
 
 P2. *(si hay atraso en P1)* ¿Qué fue lo que más te atrasó? Elige hasta dos. [opción múltiple, máximo 2; opciones en orden aleatorio]
    - No tuve tiempo por el trabajo u otras obligaciones
-   - Cuando tenía tiempo, estaba demasiado cansado para estudiar
+   - Cuando tenía tiempo, tenía demasiado cansancio para estudiar
    - No sabía qué estudiar o por dónde seguir
    - Mi material estaba desordenado o disperso
    - Me costaba arrancar y lo fui posponiendo
    - Otra: ____
    > Objetivo 2. Las causas tienen el mismo peso y orden aleatorio para no sesgar hacia "organizar". "Me costaba arrancar" cubre la motivación, que la creencia 2 también descarta.
+   > Regla de análisis (fijada 2026-10-30, antes de ver datos): para comparar causas, "organizar" cuenta una vez por persona si marcó al menos una de sus dos opciones ("No sabía qué estudiar" o "Mi material estaba desordenado"), para que no pese doble frente a tiempo, energía o motivación; las dos opciones también se reportan por separado. La creencia se sostiene si organizar es la causa que más personas marcan entre quienes van atrasados en los grupos A y B. Si la falta de tiempo la iguala o la supera, se lee como señal en contra, en línea con el research (la literatura atribuye el abandono sobre todo a tiempo y obligaciones). Con estas metas se lee como patrón, no como porcentaje.
 
 P3. La última vez que te sentaste a estudiar, ¿cuánto tiempo pasaste decidiendo qué estudiar u organizando el material antes de empezar? [opción única]
    - Casi nada (menos de 5 minutos)
@@ -129,15 +132,17 @@ P8. Si pudieras repasar respondiendo preguntas en voz alta con audífonos, ¿qu�
    - Haciendo tareas de la casa
    > Objetivo 1: en qué momentos sí y en cuáles no. Es una opinión, la única hipotética de la encuesta: pregunta por facilidad, no por intención de uso, y se lee junto con P7, nunca sola. El enunciado nombra los dos polos para no sugerir que puede ser incómodo, y "difícil" cubre vergüenza, ruido, cansancio o concentración; el porqué se explora en la entrevista.
 
-P9. En los últimos 3 años, ¿cuántos exámenes, certificaciones o evaluaciones importantes con fecha preparaste? Cuenta también la que estés preparando ahora, si tienes una. [opción única]
+*La unidad de recurrencia es el ciclo que se cobraría (decidido 2026-10-30, en línea con el research de mercado: el segmento paga por ciclo, con planes que duran lo que dura la meta). En el grupo A, el ciclo es la preparación de un examen hasta su fecha; en los grupos B y D, la materia o, como mucho, el semestre. Por eso P9 y P10 tienen dos versiones.*
+
+P9. *(grupos A y C, y quien no tiene grupo)* En los últimos 3 años, ¿cuántas certificaciones o exámenes con fecha preparaste (por ejemplo, certificaciones profesionales, exámenes de idioma, de ingreso o concursos)? Incluye el que estés preparando ahora, si tienes uno. [opción única]
    - Ninguno
    - 1
    - 2
    - 3
    - 4 o más
-   > Objetivo 4: recurrencia pasada (comportamiento).
+   > Objetivo 4: recurrencia pasada (comportamiento). Cada examen es un ciclo; no se cuentan parciales de un programa.
 
-P10. En los próximos 12 meses, ¿tienes previsto preparar un examen, certificación o evaluación con fecha (sin contar la que estés preparando ahora, si tienes una)? [opción única]
+P10. *(grupos A y C, y quien no tiene grupo)* En los próximos 12 meses, ¿tienes previsto preparar otra certificación o examen con fecha, aparte del que estés preparando ahora? [opción única]
    - Sí, y ya tiene fecha
    - Sí, pero todavía sin fecha
    - Es posible
@@ -145,24 +150,41 @@ P10. En los próximos 12 meses, ¿tienes previsto preparar un examen, certificac
    - No lo sé
    > Objetivo 4: recurrencia esperada. Es lo que esperan, no lo que pasará; la creencia 7 se mide después con datos de negocio.
 
-P11. Para tu preparación actual o más reciente, ¿cuánto se ha gastado en total en cursos, plataformas, materiales o apps? No cuentes el costo del examen ni la matrícula del posgrado. [opción única]
-   - Nada
+P10a. *(solo grupo A)* ¿Cuánto dura (o duró) tu preparación, desde que empezaste a estudiar hasta la fecha del examen? [opción única]
+   - Menos de 1 mes
+   - Entre 1 y 3 meses
+   - Entre 3 y 6 meses
+   - Más de 6 meses
+   > Objetivo 4: duración del ciclo, para dimensionar un pase "hasta tu examen" y contrastar el umbral de 3 meses de la creencia 6 (pago durante el ciclo).
+
+P9b. *(grupos B y D)* Este semestre (o el último que cursaste), ¿cuántas materias con exámenes o parciales con fecha tienes? [opción única]
+   - 1
+   - 2
+   - 3
+   - 4 o más
+   > Objetivo 4: ciclos de cobro por semestre, si se cobra por materia.
+
+P10b. *(grupos B y D)* ¿Cuántos semestres te faltan para terminar tu posgrado o carrera, contando el actual? [opción única]
+   - Este es el último
+   - 1 a 2 más
+   - 3 a 4 más
+   - Más de 4
+   > Objetivo 4: con P9b, cuántos ciclos de cobro quedan por persona (materias por semestre × semestres restantes). Es lo que esperan; puede cambiar si abandonan o repiten.
+
+P11. Para tu preparación actual o más reciente, ¿cuánto has pagado tú, de tu bolsillo, en cursos, plataformas, materiales o apps? No cuentes el costo del examen ni la matrícula del posgrado o la carrera. [opción única]
+   - Nada, porque lo cubrió mi empresa o una beca
+   - Nada, usé solo recursos gratuitos
    - Menos de 100.000 COP
    - Entre 100.000 y 500.000 COP
    - Entre 500.000 y 1.500.000 COP
    - Más de 1.500.000 COP
-   - Lo pagó todo mi empresa o una beca
    - Prefiero no decirlo
-   > Objetivo 4 y contexto de precio (creencia 5): gasto actual, no intención de pago.
+   > Objetivo 4 y contexto de precio (creencia 5): gasto actual de bolsillo, no intención de pago. Mide lo que sale de la persona (B2C); los dos "Nada" separan a quien no paga porque paga la empresa o una beca (señal B2B) de quien usa solo lo gratuito (poca disposición a pagar). Si la empresa pagó una parte, se reporta solo lo propio.
 
-## Preguntas abiertas
+## Pregunta abierta
 
-A1. ¿Qué es lo más difícil para ti de sostener tu estudio mientras trabajas? [abierta]
+A1. *(quien trabaja y estudia o estudió: F2 trabaja y F3 grupos A, B, C o D)* ¿Qué es lo más difícil para ti de sostener tu estudio mientras trabajas? [abierta, opcional]
    > Objetivo 2: causas en sus propias palabras; contrasta P2.
-
-A2. Cuéntanos la última vez que intentaste estudiar o repasar mientras te movías o hacías otra cosa (transporte, ejercicio, la casa). ¿Qué hiciste y cómo te fue? [abierta, opcional]
-   > Objetivo 1: comportamiento concreto; materia prima para las entrevistas.
-
 ## Filtro y permiso para entrevista
 
 R1. ¿Trabajas en una empresa que desarrolla herramientas de estudio, educación o tecnología educativa? [sí / no] → no es candidato a entrevista si responde "sí"
