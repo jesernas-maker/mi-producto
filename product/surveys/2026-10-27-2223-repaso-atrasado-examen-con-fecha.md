@@ -67,13 +67,13 @@ F5. *(grupos A, B y D)* ¿Qué certificación, examen, posgrado o carrera es? [a
 
 ## Preguntas
 
-P1. Pensando en las últimas 4 semanas, ¿cómo vas respecto a lo que te habías propuesto estudiar? [opción única]
+P1. Pensando en el último mes en que estuviste estudiando (este mes, si estás estudiando ahora), ¿cómo ibas respecto a lo que te habías propuesto? [opción única]
    - Al día o adelantado
    - Un poco atrasado (menos de una semana)
    - Bastante atrasado (de una a tres semanas)
    - Muy atrasado (más de un mes)
    - No tengo un plan definido
-   > Objetivo 2 (cuántos y cuánto se atrasan) y 3 (A y B frente a C).
+   > Objetivo 2 (cuántos y cuánto se atrasan) y 3 (A y B frente a C). Sirve a quien estudia ahora y a quien ya terminó; en el análisis, F4 ("Ya lo presenté") separa a quienes responden de memoria, que es menos preciso.
 
 P2. *(si hay atraso en P1)* ¿Qué fue lo que más te atrasó? Elige hasta dos. [opción múltiple, máximo 2; opciones en orden aleatorio]
    - No tuve tiempo por el trabajo u otras obligaciones
