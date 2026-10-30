@@ -69,3 +69,8 @@ Revisión de la encuesta (`/survey-design`) frente a las personas, hecha antes d
   **AI proposed:** Ajustes de la revisión, aceptados tal como se propusieron: P1 redactada para quien ya terminó de estudiar; A1 solo para quien trabaja y estudia, y opcional; P11 como gasto de bolsillo, con dos "Nada" (pagó la empresa o una beca / solo recursos gratuitos); regla de análisis fijada antes de los datos para la causa "organizar" en P2; quitar la abierta sobre estudiar en movimiento (A2), con la encuesta bajando a unos 6 minutos; rangos de atraso sin hueco y redacción neutra en género en P1 y P2.
   **Human decided:** Aceptados.
   **Why:** Corrigen errores de diseño de la versión anterior de la encuesta (preguntas que no aplicaban a parte de los encuestados, opciones que se cruzaban, una medición sesgable y una duración por encima de la recomendada).
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Una bienvenida que decía "tus respuestas son anónimas" sin salvedad (la IA no lo detectó en la revisión; lo encontró después, al recomendar la herramienta).
+  **Human decided:** Aceptó la corrección: "Tus respuestas son anónimas, salvo que al final decidas dejar tu contacto para conversar con nosotros; hacerlo es opcional."
+  **Why:** Quien deja su contacto en R3 queda identificado junto con todas sus respuestas; prometer anonimato sin salvedad no es honesto con el encuestado.

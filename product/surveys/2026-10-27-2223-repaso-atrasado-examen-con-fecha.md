@@ -31,7 +31,7 @@ opportunity: repaso-atrasado-examen-con-fecha
 
 ## Texto de bienvenida (para el encuestado)
 
-> Estamos investigando cómo estudian las personas que trabajan: qué estudian, cómo organizan su tiempo y qué hacen en su día a día. No hay respuestas correctas ni incorrectas, y no importa si hoy estás estudiando algo o no. Son unos 6 minutos y tus respuestas son anónimas. Al final puedes dejar tu contacto si quieres conversar con nosotros, pero es opcional.
+> Estamos investigando cómo estudian las personas que trabajan: qué estudian, cómo organizan su tiempo y qué hacen en su día a día. No hay respuestas correctas ni incorrectas, y no importa si hoy estás estudiando algo o no. Son unos 6 minutos. Tus respuestas son anónimas, salvo que al final decidas dejar tu contacto para conversar con nosotros; hacerlo es opcional.
 
 Nota para el equipo: el texto no menciona atraso, voz, tiempo muerto ni el producto, y no privilegia un tipo de estudio, para no atraer más a un grupo que a otro. Los mensajes con que se comparte el link en cada canal deben mantener el mismo tono neutro.
 
