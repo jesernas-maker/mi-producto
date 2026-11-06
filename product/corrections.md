@@ -46,13 +46,13 @@ Revisión de la encuesta (`/survey-design`) frente a las personas, hecha antes d
   **Why:** No se explicitó; queda como meta provisional.
 
 - **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
-  **AI proposed:** Agregar "manejar carro o moto" a los ejemplos de tiempo muerto (P5) y a la matriz de estudio en voz alta (P7), sin incluirlo en la hipotética (P8); y agregar "usar el celular" a lo que hacen en esos momentos (P6).
-  **Human decided:** Nada sobre conducir; P5 a P8 quedan como estaban, también sin "usar el celular".
+  **AI proposed:** Agregar "manejar carro o moto" a los ejemplos de tiempo muerto (P3) y a la matriz de estudio en voz alta (P5), sin incluirlo en la hipotética (P6); y agregar "usar el celular" a lo que hacen en esos momentos (P4).
+  **Human decided:** Nada sobre conducir; P3 a P6 quedan como estaban, también sin "usar el celular".
   **Why:** No se explicitó en esta revisión; es coherente con la decisión del 2026-10-27 de no considerar la conducción como tiempo muerto por seguridad.
 
 - **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md, product/opportunities/2026-10-21-1203-repaso-atrasado-examen-con-fecha.md
-  **AI proposed:** Contar la recurrencia por objetivo completo (cada certificación como uno y cada posgrado o carrera como uno solo), con las mismas P9 y P10 para todos.
-  **Human decided:** La unidad es el ciclo que se cobraría: el examen en el grupo A; la materia o, como mucho, el semestre en posgrado y carrera. P9 y P10 tienen dos versiones (P9b y P10b para los grupos B y D: materias por semestre y semestres restantes), con una pregunta nueva sobre la duración de la preparación para el grupo A (P10a). En la oportunidad, la idea de cobro por ciclo se redefine así.
+  **AI proposed:** Contar la recurrencia por objetivo completo (cada certificación como uno y cada posgrado o carrera como uno solo), con las mismas preguntas de recurrencia para todos (P10 y P11).
+  **Human decided:** La unidad es el ciclo que se cobraría: el examen en el grupo A; la materia o, como mucho, el semestre en posgrado y carrera. La recurrencia tiene dos versiones (P10 y P11 para exámenes; P13 y P14 para los grupos B y D: materias por semestre y semestres restantes), con una pregunta nueva sobre la duración de la preparación para el grupo A (P12). En la oportunidad, la idea de cobro por ciclo se redefine así.
   **Why:** El cobro debe ser más pequeño y ligado al objetivo, y el research de mercado muestra que el segmento paga por ciclo, con planes que duran lo que dura la meta.
 
 - **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
@@ -61,12 +61,12 @@ Revisión de la encuesta (`/survey-design`) frente a las personas, hecha antes d
   **Why:** Minimizar al máximo el riesgo de sesgo en quién responde.
 
 - **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
-  **AI proposed:** Dos caminos para los perfiles sin opción en el filtro (F3): ampliar el grupo A a cualquier examen con fecha, o dejarlo solo en certificaciones profesionales y dar opción propia a los demás.
+  **AI proposed:** Dos caminos para los perfiles sin opción en la pregunta de grupo (P7): ampliar el grupo A a cualquier examen con fecha, o dejarlo solo en certificaciones profesionales y dar opción propia a los demás.
   **Human decided:** Ampliar el grupo A a certificación o examen con fecha o plazo definido (idioma, residencia, ingreso, concurso), y agregar el grupo D (pregrado, técnico o tecnológico).
-  **Why:** Que nadie con fecha caiga en el grupo de comparación; F5 permite separar después las certificaciones profesionales.
+  **Why:** Que nadie con fecha caiga en el grupo de comparación; P9 permite separar después las certificaciones profesionales.
 
 - **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
-  **AI proposed:** Ajustes de la revisión, aceptados tal como se propusieron: P1 redactada para quien ya terminó de estudiar; A1 solo para quien trabaja y estudia, y opcional; P11 como gasto de bolsillo, con dos "Nada" (pagó la empresa o una beca / solo recursos gratuitos); regla de análisis fijada antes de los datos para la causa "organizar" en P2; quitar la abierta sobre estudiar en movimiento (A2), con la encuesta bajando a unos 6 minutos; rangos de atraso sin hueco y redacción neutra en género en P1 y P2.
+  **AI proposed:** Ajustes de la revisión, aceptados tal como se propusieron: P15 redactada para quien ya terminó de estudiar; la abierta sobre lo más difícil (P20) solo para quien trabaja y estudia, y opcional; P19 como gasto de bolsillo, con dos "Nada" (pagó la empresa o una beca / solo recursos gratuitos); regla de análisis fijada antes de los datos para la causa "organizar" en P16; quitar la abierta sobre estudiar en movimiento, con la encuesta bajando a unos 6 minutos; rangos de atraso sin hueco y redacción neutra en género en P15 y P16.
   **Human decided:** Aceptados.
   **Why:** Corrigen errores de diseño de la versión anterior de la encuesta (preguntas que no aplicaban a parte de los encuestados, opciones que se cruzaban, una medición sesgable y una duración por encima de la recomendada).
 
@@ -74,3 +74,12 @@ Revisión de la encuesta (`/survey-design`) frente a las personas, hecha antes d
   **AI proposed:** Una bienvenida que decía "tus respuestas son anónimas" sin salvedad (la IA no lo detectó en la revisión; lo encontró después, al recomendar la herramienta).
   **Human decided:** Aceptó la corrección: "Tus respuestas son anónimas, salvo que al final decidas dejar tu contacto para conversar con nosotros; hacerlo es opcional."
   **Why:** Quien deja su contacto en R3 queda identificado junto con todas sus respuestas; prometer anonimato sin salvedad no es honesto con el encuestado.
+
+## 2026-11-06
+
+Adaptación de la encuesta a Forms antes del envío. No es una `/review-evidence`. Los números de pregunta de todas las entradas de este archivo corresponden a la numeración actual de la encuesta.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Dos formas de resolver las condiciones que dependían de una respuesta anterior a la inmediata (el bloque de recurrencia según el grupo, la abierta sobre lo más difícil y el gasto de bolsillo): reordenar en pistas por grupo, o una sola versión con opciones de "no aplica". Al aplicar la primera, conservó los números viejos y agregó notas de cambio.
+  **Human decided:** Pistas por grupo, con la encuesta reescrita limpia: numeración corrida en el orden en que se ven (P1 a P20, R1 a R3), sin notas de cambio, y las referencias actualizadas en otros artefactos. El bloque de tiempo con manos libres y voz alta va antes de la pregunta de grupo; P20 se reformula para todo el que estudia ("junto con tus otras obligaciones") y P19 y P20 ya no se muestran a quien no estudia.
+  **Why:** Forms solo decide el camino con la respuesta actual; las pistas mantienen la encuesta igual de corta. Una reestructuración es el momento de simplificar, no de acumular parches.
