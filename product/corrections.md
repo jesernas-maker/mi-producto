@@ -83,3 +83,12 @@ Adaptación de la encuesta a Forms antes del envío. No es una `/review-evidence
   **AI proposed:** Dos formas de resolver las condiciones que dependían de una respuesta anterior a la inmediata (el bloque de recurrencia según el grupo, la abierta sobre lo más difícil y el gasto de bolsillo): reordenar en pistas por grupo, o una sola versión con opciones de "no aplica". Al aplicar la primera, conservó los números viejos y agregó notas de cambio.
   **Human decided:** Pistas por grupo, con la encuesta reescrita limpia: numeración corrida en el orden en que se ven (P1 a P20, R1 a R3), sin notas de cambio, y las referencias actualizadas en otros artefactos. El bloque de tiempo con manos libres y voz alta va antes de la pregunta de grupo; P20 se reformula para todo el que estudia ("junto con tus otras obligaciones") y P19 y P20 ya no se muestran a quien no estudia.
   **Why:** Forms solo decide el camino con la respuesta actual; las pistas mantienen la encuesta igual de corta. Una reestructuración es el momento de simplificar, no de acumular parches.
+
+## 2026-11-09
+
+Ajuste de la encuesta al montarla en Forms. No es una `/review-evidence`.
+
+- **Artifact:** product/surveys/2026-10-27-2223-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Rangos de gasto de bolsillo en P19: menos de 100.000 COP, de 100.000 a 500.000, de 500.000 a 1.500.000 y más de 1.500.000.
+  **Human decided:** Los mismos rangos con un cero menos: menos de 10.000 COP, de 10.000 a 50.000, de 50.000 a 150.000 y más de 150.000.
+  **Why:** No se explicitó.
