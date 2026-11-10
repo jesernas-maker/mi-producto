@@ -36,15 +36,15 @@ survey_analysis: product/insights/2026-11-09-2230-encuesta-repaso-atrasado.md
 **Antes de cada llamada, tener a mano tres respuestas suyas de la encuesta:**
 
 - Qué estudia.
-- En qué momentos marcó que alguna vez estudió hablando en voz alta (transporte, caminando, ejercicio, casa).
+- En qué momentos marcó que alguna vez estudió hablando en voz alta (transporte, caminando, ejercicio, casa) y cuál marcó como fácil. Si marcó varios, en la entrevista se usa el que marcó como fácil; si ninguno lo es, el primero que marcó.
 - Si en los últimos 6 meses empezó a usar una herramienta nueva.
 
 **Para quien entrevista:**
 
 - No mencionar BrainWhisper, la voz como forma de estudiar ni la idea de un tutor. Si el participante pregunta qué estamos construyendo, responder al final: "Estamos aprendiendo cómo estudia la gente que trabaja; todavía no hay producto".
-- No decir "voz alta" hasta que el participante lo mencione: si la pregunta lo sugiere, la respuesta deja de servir.
+- No decir "voz alta" antes de la pregunta 3, salvo que el participante lo mencione: si la pregunta lo sugiere, la respuesta deja de servir. En la 3 se cita su propia respuesta de la encuesta, sin sugerir si le fue bien o mal.
 - Pedir siempre **la última vez**, no "normalmente". Si responde en general ("yo suelo…"), volver: "¿Y la última vez, cómo fue?".
-- La gente se expande: las preguntas de seguimiento con ★ no pueden faltar; las demás se usan solo si sobra tiempo. Si el tiempo se acaba, con la 2 y la 3 y sus ★ ya está lo esencial.
+- La gente se expande: las preguntas de seguimiento con ★ no pueden faltar; las demás se usan solo si sobra tiempo. Si el tiempo se acaba, con la 2, la 3 y la 4 y sus ★ ya está lo esencial.
 - Grabar solo con permiso.
 
 ## Bienvenida y apertura (3 min)
@@ -59,11 +59,17 @@ survey_analysis: product/insights/2026-11-09-2230-encuesta-repaso-atrasado.md
 > **Para quien entrevista.** Creemos dos cosas. Primero, que la mayoría repasa de forma pasiva (relee, subraya, escucha) y no sabe bien qué le quedó. Segundo, que al caminar, en la casa o haciendo ejercicio pueden estudiar de forma activa.
 > **Estábamos equivocados si:** ya practican recordando con regularidad (simulacros, quices, preguntas a ChatGPT) y les funciona; o si, cuando lo intentaron fuera del escritorio, lo dejaron porque preferían descansar.
 
-**2.** Cuéntame la última vez que repasaste para tu examen. ¿Qué hiciste?
+**2.** Cuéntame la última vez que repasaste para tu [próximo parcial o examen]. ¿Qué hiciste?
 - ★ ¿Cómo supiste si te había quedado?
-- ★ ¿Te tomaste preguntas de alguna forma? ¿Con qué?
-- *Si en la encuesta marcó que alguna vez estudió hablando en voz alta en algún momento:* La última vez que repasaste [caminando, en la casa o haciendo ejercicio, según lo que marcó], ¿cómo fue? ¿Lo seguiste haciendo o lo dejaste? ¿Por qué?
-- *Si menciona hablar en voz alta:* ¿Qué te hizo hacerlo ahí?
+- ★ ¿Hiciste algo más con ese tema antes del [parcial o examen]?
+  - *Si menciona preguntas, quices o simulacros:* ¿Cuándo fue la vez anterior que lo hiciste?
+- *Si menciona que algo o alguien le hace preguntas (ChatGPT, una app, un compañero):* ¿Cómo le respondes?
+- *Si en la encuesta marcó que alguna vez estudió hablando en voz alta en algún momento:* La última vez que repasaste [caminando, en la casa, haciendo ejercicio o en el transporte, según lo que marcó], ¿cómo fue?
+- *Si menciona hablar en voz alta:* ¿Qué te hizo hacerlo en ese momento? (Si ya lo contó, se salta la 3.)
+
+**3.** *Si en la encuesta marcó que alguna vez estudió hablando en voz alta y todavía no lo ha contado:* En la encuesta marcaste que alguna vez estudiaste hablando mientras [el momento que marcó]. ¿Te acuerdas de la última vez? ¿Qué estabas haciendo?
+- ★ ¿Lo volviste a hacer?
+- ★ ¿Qué pasó?
 
 ## Herramientas que prueban (6 min)
 
@@ -71,17 +77,19 @@ survey_analysis: product/insights/2026-11-09-2230-encuesta-repaso-atrasado.md
 > **Estábamos equivocados si:** la herramienta llegó por exigencia del curso, la universidad o la empresa, o por curiosidad, no porque le faltara algo; o si está contento con lo que usa y no busca más (la creencia 4 cae si el segmento ya está satisfecho).
 > **No esperar que pidan voz.** El producto no existe y nadie pide lo que no puede imaginar; que no lo nombren no dice nada sobre su valor. Lo que se busca es el hueco contado con sus palabras ("no sé si me quedó", "no tengo cuándo sentarme", "llego sin cabeza"); el análisis después contrasta ese hueco con la propuesta.
 
-**3a.** *Si en la encuesta marcó que empezó una herramienta nueva:* Cuéntame de la última herramienta, app, curso o plataforma que empezaste a usar para estudiar.
-- ★ ¿Qué pasó para que buscaras algo nuevo?
-- ★ ¿Para qué usas cada una de las que tienes?
+**4.** *Si en la encuesta marcó que empezó una herramienta nueva:*
+- *Si ya la nombró en la 2:* Mencionaste [herramienta]. ¿Cómo llegaste a ella?
+- *Si no:* Cuéntame de la última herramienta, app, curso o plataforma que empezaste a usar para estudiar. ¿Cómo llegaste a ella?
+- ★ ¿Qué usabas antes para eso?
+- ¿Hay alguna que hayas dejado de abrir? ¿Qué pasó?
 
-**3b.** *Si no empezó ninguna:* ¿Qué fue lo último que te faltó mientras estudiabas?
-- ★ ¿Qué hiciste para resolverlo?
-- ★ ¿Qué pasó?
+*A todos, haya empezado o no una herramienta nueva:*
+- ★ Pensando en tu último [parcial o examen], ¿hubo algo que te hizo falta para prepararlo?
+- ★ ¿Qué hiciste?
 
 ## Cierre (2 min)
 
-**4.** ¿Hay algo sobre cómo estudias que no te pregunté y que crees que debería saber?
+**5.** ¿Hay algo sobre cómo estudias que no te pregunté y que crees que debería saber?
 
 > Gracias. Te escribo por WhatsApp por si conoces a alguien más con quien podamos hablar.
 
@@ -117,3 +125,23 @@ Por WhatsApp al agendar (ver *Antes de la entrevista*). Disqualifica del anális
 - **4 entrevistas** con el pool en perfil. Con el contacto de la encuesta, puede que no todos respondan.
 - Si tras las 4 las respuestas aún no se repiten en algún objetivo, se suman hasta 2 cercanas al perfil, analizadas por separado.
 - **Límite que se hereda:** con 1 sola persona del grupo A, esta ronda habla sobre todo de quien cursa un posgrado (la persona comparativa). Lo que se aprenda de la persona de diseño es un caso, no un patrón; los referidos quedan para una ronda que la alcance.
+
+## Notas del pretest
+
+### 2026-11-10 · con Valentina Rojas (sintética)
+
+Prueba en seco con la persona comparativa (grupo B, 3 de las 4 personas del pool). Respuestas de encuesta asignadas: especialización, marcó voz alta en la casa y haciendo ejercicio, y empezó una herramienta nueva. Es control de calidad del instrumento, no evidencia.
+
+**Qué cambió:**
+- **Voz alta en los momentos con manos libres (nueva pregunta 3).** Al preguntarle por la última vez que repasó haciendo ejercicio, contó que escucha audios; lo que la encuesta registró (que habló en voz alta) nunca salió, y la regla de no decir "voz alta" impedía volver a eso. Ahora, al final de la sección, se cita su propia respuesta de la encuesta. La pregunta triple ("¿cómo fue? ¿lo seguiste o lo dejaste? ¿por qué?") quedó en "¿cómo fue?", porque solo se respondía la parte fácil. Se fija qué momento usar si marcó varios.
+- **"¿Te tomaste preguntas de alguna forma?" → "¿Hiciste algo más con ese tema…?"** La primera inducía la respuesta y sacaba un "sí, a veces" fuera de la última vez. Se agrega un seguimiento de frecuencia, porque la señal de que estábamos equivocados habla de practicar recordando "con regularidad".
+- **"¿Cómo le respondes?"** Nuevo seguimiento cuando algo o alguien le hace preguntas: "le digo que me haga preguntas" no aclaraba si escribe o habla.
+- **Herramientas (pregunta 4).** "¿Qué pasó para que buscaras algo nuevo?" daba por hecho que buscó → "¿Cómo llegaste a ella?", que retoma la herramienta si ya salió en la 2 (antes la repetía). "¿Para qué usas cada una?" producía un inventario → "¿Qué usabas antes?" y "¿Alguna que hayas dejado de abrir?", que es donde salió el dato útil (dejó Quizlet). La pregunta sobre lo que les hizo falta, que antes solo recibía quien no había empezado herramientas, ahora se hace a todos, atada al último parcial o examen.
+- **"tu examen" → "tu [próximo parcial o examen]"**, porque el grupo B tiene parciales.
+
+**Lo que se dejó a propósito:**
+- La apertura hace aflorar el atraso o la materia perdida: no se profundiza, porque la causa del atraso está fuera de alcance.
+- Los referidos se piden por WhatsApp después de la llamada, no durante.
+- Duración: unos 15–17 minutos con la persona; los cambios mantienen la guía en unos 20.
+
+**Límite:** una persona sintética es más articulada y cooperativa que alguien real; por ejemplo, rechazó la premisa de "buscaste", cosa que un participante real a menudo no hace. Esta prueba valida la estructura, no si la redacción se entiende.
