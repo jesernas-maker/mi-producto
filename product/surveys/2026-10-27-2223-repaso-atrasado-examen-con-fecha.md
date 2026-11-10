@@ -230,4 +230,4 @@ Perfil de entrevista: grupos A o B, vive en Colombia y trabaja (P1, P2 y P7), y 
 - **Estrategia:** llegar a la mayor cantidad de personas posible por todos los canales; los nombres y el alcance de cada canal no se definen antes del envío.
 - **Envío:** tentativo, primera semana de noviembre de 2026.
 - **Primera revisión:** 2026-11-17 (tentativa): respuestas por canal y por grupo, y si hace falta insistir en algún canal.
-- **Cierre:** cerrada el 2026-11-09 con 30 respuestas (canales 2, 3 y 5; los canales 4 y 6 no se enviaron). El grupo A no llegó a su meta. Análisis: `product/insights/2026-11-09-2230-encuesta-repaso-atrasado.md`.
+- **Cierre:** cerrada el 2026-11-10 con 36 respuestas (canales 1, 2, 3 y 5; los canales 4 y 6 no se enviaron). El grupo A no llegó a su meta. Análisis: `product/insights/2026-11-09-2230-encuesta-repaso-atrasado.md`.
