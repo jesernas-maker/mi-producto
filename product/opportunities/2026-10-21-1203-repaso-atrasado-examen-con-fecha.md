@@ -53,7 +53,7 @@ Comercial: conversión de free a pago e ingreso sostenido durante todo el ciclo 
 ## Creencias
 Referencias a product/overview.md, el registro único:
 - [opportunity: repaso-atrasado-examen-con-fecha] [value] #9: Quienes van atrasados en su repaso ya intentan hoy algún repaso activo (que alguien les pregunte, simulacros con IA, explicar en voz alta) y lo hacen menos de lo que quisieran, porque depende de tener a alguien disponible, de sentarse frente a una pantalla o de una IA que pierde el foco o se sale del material.
-- [product] [value] #3: El usuario objetivo tiene momentos con las manos libres y estaría dispuesto a usarlos para estudiar de forma activa, respondiendo en voz alta. Acotada por la encuesta: caminando, en la casa y en el ejercicio, no en el transporte público.
+- [product] [value] #3: El usuario objetivo tiene un trayecto diario (transporte público o carro) y estaría dispuesto a usarlo para estudiar de forma activa, respondiendo en voz alta o en voz baja. El ejercicio y los paseos no entran: son ratos para desconectarse.
 - [product] [value] #8: Repasar respondiendo por voz rinde más por hora que lo que el usuario hace hoy (releer, escuchar resúmenes o podcasts).
 - [product] [value] #4: Hay un segmento concreto, probablemente profesionales que preparan un examen con fecha, en el que este dolor es bastante más agudo, lo bastante para cambiar de herramienta.
 - [product] [value] #2: La causa principal de no sostener el repaso es el trabajo de organizarlo. Debilitada por la encuesta y las entrevistas; el enunciado ya no se apoya en ella.
@@ -65,7 +65,7 @@ Referencias a product/overview.md, el registro único:
 | Creencia | Quién responde |
 |---|---|
 | #9 repaso activo que no cabe | Usuarios: entrevistas sobre lo que hicieron la última vez que repasaron |
-| #3 manos libres y voz alta | Usuarios: entrevistas reales sobre lo que hacen hoy en esos ratos; después, uso en una prueba de solución |
+| #3 voz en el trayecto | Usuarios: entrevistas reales sobre lo que hacen hoy en esos ratos; después, uso en una prueba de solución |
 | #8 eficiencia del repaso activo por voz | Usuarios: prueba de solución, comparada con su método actual |
 | #4 segmento más agudo | Usuarios: entrevistas con profesionales que preparan una certificación, a reclutar fuera del pool de la encuesta |
 | #5 precio, #6 pago durante el ciclo | Negocio: preventa y retención de pago real |
@@ -77,7 +77,7 @@ La encuesta está cerrada y no habrá más rondas: lo que queda abierto se respo
 | Creencia | Instrumento | Decisión que desbloquea | Para cuándo |
 |---|---|---|---|
 | #9 repaso activo que no cabe | Entrevistas reales pendientes (pool de la encuesta: quien contradice las creencias y la maestría en enfermería), con una pregunta por la última vez que intentaron un repaso activo y qué lo frenó | Si la oportunidad se sostiene como está enunciada y pasa a /explore-solutions, o se reenmarca | 2026-12-01 |
-| #3 manos libres y voz alta | Las mismas entrevistas, con los seguimientos ★ sobre qué hacen hoy en los ratos con manos libres, con quién viven y si su material pide pantalla | Qué momentos promete el producto y si las condiciones de hogar y material filtran el segmento de lanzamiento | 2026-12-01 |
+| #3 voz en el trayecto | Las mismas entrevistas, con los seguimientos ★ sobre qué hacen hoy en los ratos con manos libres, con quién viven y si su material pide pantalla | Qué momentos promete el producto y si las condiciones de hogar y material filtran el segmento de lanzamiento | 2026-12-01 |
 | #4 segmento más agudo | Entrevistas con 2–3 profesionales que preparan una certificación, reclutados por contactos directos (la encuesta casi no los alcanzó), seleccionados por lo que probaron y dejaron en los últimos meses | Confirmar al profesional con certificación como primer usuario, o mover el foco al posgrado | 2026-12-01 |
 | #8 eficiencia del repaso activo por voz | Prueba de solución que compare con el repaso en pareja y con NotebookLM, mida si las preguntas se ciñen al material y varían entre sesiones, y si cansa menos que sentarse a estudiar | Si el repaso por voz es el valor central | Después de /explore-solutions; sin fecha |
 | #7 recurrencia | Las entrevistas con certificación: cuántos exámenes prepararon en 3 años y cuántos esperan en 12 meses | Si el modelo se rentabiliza por ciclo o por relación continua | 2026-12-01 |
