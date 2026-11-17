@@ -1,7 +1,7 @@
 ---
 status: framed
 segment: Adultos que trabajan y estudian, con poco tiempo de escritorio por compromisos laborales o personales, que preparan evaluaciones con fecha que no pueden mover (certificaciones profesionales o exámenes de posgrado); descubrimiento inicial en Colombia
-personas: andres-molina, valentina-rojas, matias-herrera, juliana-ospina, patricia-lozano, diego-fuentes
+personas: andres-molina, valentina-rojas, matias-herrera, juliana-ospina, patricia-lozano, diego-fuentes, laura-quintero
 ---
 
 # Oportunidad: El repaso que funciona no cabe en el día
@@ -15,10 +15,10 @@ Quienes preparan una evaluación con fecha mientras trabajan se atrasan en su re
 - Juliana Ospina (tertiary, opción A del B2B): no lo sufre. Líder de formación en una empresa que paga certificaciones y ve cómo se posponen; puede informar la viabilidad de vender a empresas.
 - Dra. Patricia Lozano (tertiary, opción B del B2B): no lo sufre. Profesora y coordinadora de posgrado que ve a sus estudiantes dejar el cronograma a mitad de semestre; puede informar la viabilidad de vender a universidades. Más fácil de contactar.
 - Diego Fuentes (negative): no lo sufre. Sostiene su rutina sin esfuerzo y disfruta planificarla; marca el límite del segmento.
+- Laura Quintero (negative, derivada): no lo sufre. Tiene fecha pero va al día siguiendo el programa, casi siempre con recursos gratuitos, y prefiere organizarse sola; marca el límite del segmento por el lado de quien tiene fecha (real: Angela y 7 respuestas de la encuesta; Camila, synthetic, en el mismo sentido). La disposición a cambiar la da no tener un sistema que funcione, no la fecha.
 - Faltante: ninguna.
 
-Condiciones del segmento que dejan las entrevistas (sin persona propia):
-- Quien tiene fecha pero ya tiene un sistema que le funciona no busca cambiar (Camila, synthetic). La disposición a cambiar la da no tener un sistema que funcione, no la fecha.
+Condición del segmento que dejan las entrevistas (sin persona propia):
 - Repasar en voz alta depende de con quién se vive y de si el material pide pantalla (código, gráficas) (synthetic, dividido 2 a 1).
 
 ## Señales
