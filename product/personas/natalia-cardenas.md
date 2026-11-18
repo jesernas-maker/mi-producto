@@ -1,12 +1,12 @@
 # Natalia Cárdenas
 
-> "Del cuarto no me acordaba si era menos tres o menos cuatro, y como iba manejando no podía mirar el celular para confirmar." — Lucía, entrevista real
+> "Lo que explicamos ese sábado es lo único que siento que domino hoy." — Lucía, entrevista real
 
 - **Role:** Profesional que trabaja jornada completa y prepara una evaluación con fecha (certificación profesional o parciales de posgrado); ya repasa hablando en el trayecto y busca quien le pregunte y la corrija
 - **Type:** primary
 - **Por qué este tipo:** tiene el problema (el repaso activo depende de alguien que no siempre está) y ya hace por su cuenta lo que haría con el producto: repasar hablando con las manos ocupadas.
 - **Age range:** sin evidencia aún
-- **Location:** Bogotá, Colombia; se mueve en transporte público o en carro, en trayectos con trancón
+- **Location:** Bogotá, Colombia; se mueve en transporte público, en trayectos largos
 - **Industry:** varía (ciberseguridad, salud, IA y datos)
 - **Technical literacy:** medium (de media a alta según el caso: Mateo usa el modo de voz de ChatGPT con instrucciones precisas; Lucía usa GoodNotes y WhatsApp)
 - **Experience level:** sin evidencia aún
@@ -41,13 +41,13 @@ date: 2026-11-17
 - Deja las herramientas que le piden transcribir o armar el material (Quizlet, la repetición espaciada) y las que no coinciden con la fuente de su examen (un banco de preguntas con protocolos de Estados Unidos, de ≈ 45 USD al mes).
 - El atraso viene del tiempo y del cansancio, no de organizar el material. En la encuesta, entre quienes tienen fecha y van atrasados, 8 de 11 marcaron cansancio y 7 de 11 falta de tiempo; solo 4 de 11 marcaron organizar.
 
-> "como iba manejando no podía mirar el celular para confirmar. Al final llegué a la clínica [...] y me quedé con la duda todo el día" — Lucía
+> "me acordé de tres niveles de la escala y del cuarto no me acordaba si era menos tres o menos cuatro [...] me quedé con la duda todo el día" — Lucía
 > "Coordinar los horarios de tres enfermeras que rotan turnos es casi imposible" — Lucía
 > "decidí hacer ejercicios simulados con IA pero igual se perdía el foco rápidamente o se volvía repetitivo a través de los días así que sentí que perdía el tiempo" — Eliana
 
 ## Typical tasks
 
-- Repasar en voz alta en el trayecto: respondiendo cortico y en voz baja a una IA por voz en el transporte público, o recitándose escalas y dosis en el carro.
+- Repasar en voz alta en el trayecto: respondiendo cortico y en voz baja a una IA por voz en el transporte público. Manejando no: queda fuera por seguridad.
 - Repasar en voz alta mientras hace oficio en la casa, si quienes viven con ella ya están acostumbrados.
 - Hacer simulacros en una plataforma parecida al examen y repetir después las preguntas que falló.
 - Tomar notas a mano o sobre el material: un cuaderno con cuadros comparativos, o anotaciones sobre las diapositivas en el iPad.

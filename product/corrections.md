@@ -101,3 +101,25 @@ Exploración de soluciones (`/explore-solutions`) para repaso-atrasado-examen-co
   **AI proposed:** Separar el plan automático del compañero de repaso por voz y parquearlo, por ser el mismo mecanismo con algo encima; luego probar en paralelo BrainWhisper y un kit para la IA de voz que ya usan, presentando el kit como la amenaza de BrainWhisper.
   **Human decided:** El plan automático es la esencia de BrainWhisper (con la opción de repasar sin plan si la persona lo pide), así que compañero y plan son una sola alternativa. Se elige solo BrainWhisper, y el kit, con el plan, las correcciones y la memoria de errores administrados a mano, es el instrumento para probarlo, no una alternativa que compita.
   **Why:** BrainWhisper debe hacerlo todo por la persona y llevar el ritmo del plan según el material; el kit administrado a mano es la forma más barata de validar si vale la pena construirlo.
+
+Ajustes tras el feedback de la unidad sobre el análisis, las alternativas y la prueba. No es una `/review-evidence`.
+
+- **Artifact:** product/insights/2026-11-17-1727-repaso-activo-manos-libres.md, product/overview.md, product/solutions/2026-11-17-2159-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Marcar como confirmadas la creencia 3 (voz en el trayecto) y la 9 (el repaso activo no cabe en el día).
+  **Human decided:** Fortalecidas, de forma direccional, en los tres archivos.
+  **Why:** Con 3 entrevistas, "confirmada" deja poco margen si aparece contraevidencia; "fortalecida" mantiene el aprendizaje abierto.
+
+- **Artifact:** product/insights/2026-11-17-1727-repaso-activo-manos-libres.md
+  **AI proposed:** Insights por tema, sin cruzar variables.
+  **Human decided:** Pidió cuatro cruces: rato × pena × formato; tipo de contenido × examen; abandono por tecleo × franja horaria; duración del trayecto × tope de ChatGPT de voz. Lo que las entrevistas no alcanzan a medir (el porcentaje del temario que cabe en voz, cuántas sesiones corta el tope) pasa a *Pendiente* y al registro de la prueba.
+  **Why:** El material ya permitía ver dónde gana de verdad la voz y afinar el caso de uso; sin cruces, eso quedaba implícito.
+
+- **Artifact:** product/solutions/2026-11-17-2159-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Viabilidad de A3 y A4 como "weak (assumption)", y la señal y el umbral de la prueba de A1 para después.
+  **Human decided:** Viabilidad de A3 y A4 como "unknown" hasta tener señal. En la prueba de A1, umbrales fijados antes de correrla, parada temprana en la semana 1, registro de la causa de abandono y una clasificación de errores para medir la memoria entre sesiones; la exactitud ceñida a la fuente va primero en la auditoría.
+  **Why:** Un supuesto sin señal no es una señal débil.
+
+- **Artifact:** product/overview.md, product/opportunities/2026-10-21-1203-repaso-atrasado-examen-con-fecha.md, product/insights/2026-11-17-1727-repaso-activo-manos-libres.md, product/personas/natalia-cardenas.md, product/solutions/2026-11-17-2159-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Contar el repaso de Lucía manejando como trayecto, y una creencia 3 con "transporte público o carro".
+  **Human decided:** Manejando no cuenta como trayecto. La creencia 3 queda solo en transporte público; lo de Lucía manejando sigue en la transcripción y como prueba de que le falta corrección, pero no como un uso del producto. Su rato válido es el oficio en la casa.
+  **Why:** Coherente con la decisión del 2026-10-27: hablar con un asistente mientras se conduce es un riesgo de seguridad. Consecuencia: el trayecto en transporte público queda con un solo caso real (Mateo), en tensión con la encuesta. Fijar el umbral antes evita leer el resultado a conveniencia, y la parada temprana ahorra esfuerzo si la señal es baja.

@@ -31,9 +31,9 @@ Las tres personas ya repasaron hablando, y lo que separa lo que funciona de lo q
 > Evidencia: "del cuarto no me acordaba si era menos tres o menos cuatro, y como iba manejando no podía mirar el celular para confirmar [...] me quedé con la duda todo el día" — Lucía
 > Evidencia: "ni yo quedé seguro de si lo dije bien porque no tenía cómo corregirme" — Camilo
 
-## 2 · El rato que sirve es el trayecto; el ejercicio y el paseo son para desconectarse, y la pena depende del lugar, no de vivir solo *(recurrente: 3 de 3)*
+## 2 · El rato que sirve es el trayecto en transporte público; el ejercicio y el paseo son para desconectarse, y la pena depende del lugar, no de vivir solo *(trayecto: 1 de 3; ejercicio y paseo fuera: 2 de 2 donde aparecen)*
 
-Los dos que repasan hablando lo hacen en el trayecto: Mateo en el TransMilenio, de pie y sin poder sacar el cuaderno; Lucía en el carro, en el trancón de la Autopista Norte. El ejercicio y el paseo quedan fuera en los dos casos donde aparecen: Mateo pone reggaetón en el gimnasio "cero estudio", y Camilo usa la media hora con el perro "para despejarme antes de empezar la jornada". La pena tampoco depende de estar solo: Camilo va solo por el parque y no hablaría "como loco" frente a los vecinos, mientras que Mateo, rodeado de gente, no siente pena porque "todo el mundo va en su cuento con audífonos" y él susurra. En la casa, Lucía habla sola delante de su familia, que ya está acostumbrada; Camilo no, porque en la casa el rato es para la pareja. Lo que los empuja a ese rato es huir del escritorio: a Camilo "le arden los ojos" y Lucía pospone todo lo que la obligue a sentarse después de doce horas de pie. Para el producto: prometer primero el trayecto, no el ejercicio ni el oficio; aceptar respuestas cortas y en voz baja; y en la próxima ronda preguntar por el trayecto antes que por cualquier otro rato.
+Quien repasa hablando en el trayecto es Mateo, en el TransMilenio, de pie y sin poder sacar el cuaderno. Lucía también se recita manejando, pero ese uso no cuenta para el producto: la conducción quedó fuera por seguridad (decisión del 2026-10-27). Su rato válido para repasar hablando es el oficio en la casa. El ejercicio y el paseo quedan fuera en los dos casos donde aparecen: Mateo pone reggaetón en el gimnasio "cero estudio", y Camilo usa la media hora con el perro "para despejarme antes de empezar la jornada". La pena tampoco depende de estar solo: Camilo va solo por el parque y no hablaría "como loco" frente a los vecinos, mientras que Mateo, rodeado de gente, no siente pena porque "todo el mundo va en su cuento con audífonos" y él susurra. En la casa, Lucía habla sola delante de su familia, que ya está acostumbrada; Camilo no, porque en la casa el rato es para la pareja. Lo que los empuja a ese rato es huir del escritorio: a Camilo "le arden los ojos" y Lucía pospone todo lo que la obligue a sentarse después de doce horas de pie. Para el producto: prometer primero el trayecto en transporte público, nunca manejando, y no el ejercicio; aceptar respuestas cortas y en voz baja; y en la próxima ronda preguntar por el trayecto antes que por cualquier otro rato.
 
 > Evidencia: "Nadie me para bolas" — Mateo, sobre responder en voz baja dentro del TransMilenio
 > Evidencia: "en el parque me daría mucha pena ir hablando solo como loco mientras paso al lado de los vecinos [...] Ese rato con el perro lo uso más bien para despejarme" — Camilo
@@ -63,12 +63,58 @@ Lo que dejaron responde a dos causas. La primera es el trabajo de preparar el ma
 > Evidencia: "estaba muy enfocada en médicos residentes de Estados Unidos, entonces los protocolos y los nombres de los medicamentos no coincidían con lo que usamos acá en Colombia" — Lucía
 > Evidencia: "Solo pagué los exámenes de Jason Dion en Udemy, que costaron como cuarenta y cinco mil pesos" — Mateo
 
+## Cruces
+
+Con 3 personas, cada cruce se lee por casos: muestra dónde mirar en la próxima ronda y qué medir en la prueba, no cuánto pesa cada patrón.
+
+### Rato × pena × formato: dónde gana la voz
+
+| Rato | Camilo | Lucía | Mateo | Lectura |
+|---|---|---|---|---|
+| Trayecto en transporte público | No tiene (trabaja desde la casa) | No tiene: maneja, y la conducción queda fuera por seguridad | TransMilenio lleno: responde en voz baja a ChatGPT, sin pena, con corrección, 3 veces por semana | La voz gana en el único caso, y funciona porque hay corrección |
+| Casa, haciendo oficio | No: es el rato con la pareja | Sí: repite el protocolo en voz alta lavando ropa; la familia ya está acostumbrada; se queda sin corrección | No: en las zonas comunes está con la familia | Depende de con quién vive, no del rato: 1 de 3 |
+| Paseo | No: le daría pena hablar frente a los vecinos; es para despejarse | — | — | Se cae por pena y por desconexión |
+| Ejercicio | — | — | No: música, "cero estudio" | Se cae por desconexión |
+| Escritorio, tecleando | Lo dejó a las 4 preguntas con Claude | Dejó Quizlet por digitar | Hace simulacros escritos sin problema | El tecleo hace abandonar a 2 de 3 |
+
+La voz gana en el transporte público y en la casa de quien vive con gente acostumbrada, y pierde en los ratos de desconexión. La pena depende de quién está cerca (vecinos, pareja), no de cuánta gente hay. El trayecto en transporte público descansa en un solo caso real, y la encuesta va en contra (17 de 36 lo encuentran difícil): es el primer dato que hay que buscar en la próxima ronda.
+
+### Tipo de contenido × examen: cuánto del temario cabe en voz
+
+| Persona · examen | Recuerdo y criterio corto (voz) | Diagrama o cálculo (pantalla) | Cuánto cabe en voz |
+|---|---|---|---|
+| Mateo · CompTIA Security+ | Acrónimos, protocolos, criptografía, puertos | Casi nada | Alto |
+| Lucía · maestría en cuidado crítico | Escalas, dosis, protocolos de sepsis | Casos clínicos con datos del paciente, curvas del ventilador | Medio |
+| Camilo · AWS Solutions Architect Professional | Nombres de servicios y parámetros | "Puro diagrama y arquitectura" | Bajo |
+
+Las entrevistas no dan un porcentaje del temario por persona: dan el orden. El porcentaje se pide en la próxima ronda (ver *Pendiente*).
+
+### Abandono por tecleo × franja horaria
+
+| Persona | Qué tecleaba | Cuándo | Qué pasó |
+|---|---|---|---|
+| Camilo | Respuestas largas a Claude | 9 p. m., después de 8 h escribiendo código y en Slack | Lo cerró a las 4 preguntas |
+| Lucía | Preguntas y respuestas en Quizlet | Sin franja dicha; estudia hacia las 9:30 p. m., después de acostar al hijo | Lo dejó por el tiempo de transcribir, no por la hora |
+| Mateo | Simulacros de selección múltiple | 8 p. m., en el escritorio | No abandona: marca una opción, no redacta |
+
+Lo que hace abandonar es redactar después de una jornada de pantalla, no teclear en sí: marcar una opción no cansa. El caso de uso por voz apunta a la franja de después del trabajo y a respuestas que, escritas, serían largas.
+
+### Duración del trayecto × tope de ChatGPT voz
+
+| Dato | Valor | Procedencia |
+|---|---|---|
+| Tope del modo de voz gratuito | 15–20 min al día | Mateo (real) |
+| Sesión de Mateo | 20 min, 15 preguntas; "me alcanza justo" | Mateo (real) |
+| Trayecto típico en Bogotá | ≈ 83 min de ida | Secondary (CEPAL, research/2026-10-21-1739) |
+
+Con el trayecto típico, el tope gratuito cubre una cuarta parte de la ida. Mateo no siente el límite, pero no dijo cuánto dura su trayecto, y con un solo caso no se puede calcular cuántas sesiones se quedan cortas. Si el tope corta a la mayoría, es una razón concreta para cambiar de herramienta; se mide en la prueba de solución.
+
 ## Frente a las creencias
 
 | Creencia | Qué aportan estas entrevistas | Estado propuesto |
 |---|---|---|
-| Manos libres y voz alta | 2 de 3 ya repasan hablando, ambos en el trayecto; el ejercicio y el paseo quedan para desconectarse; la pena depende del lugar | Confirmada para el trayecto; no se sostiene para ejercicio ni paseo |
-| Repaso activo que no cabe en el día | Las tres intentan repaso activo; a Lucía la frena cuadrar turnos y a Camilo no tener quién corrija. Mateo lo hace con regularidad sin depender de nadie, que es el caso que la contradice | Confirmada, con un caso en contra |
+| Manos libres y voz alta | 2 de 3 ya repasan hablando: Mateo en el transporte público y Lucía en la casa (lo que hace manejando no cuenta, por seguridad); el ejercicio y el paseo quedan para desconectarse; la pena depende del lugar | Fortalecida para el transporte público, de forma direccional: un solo caso real, en tensión con la encuesta; no se sostiene para ejercicio ni paseo |
+| Repaso activo que no cabe en el día | Las tres intentan repaso activo; a Lucía la frena cuadrar turnos y a Camilo no tener quién corrija. Mateo lo hace con regularidad sin depender de nadie, que es el caso que la contradice | Fortalecida (direccional, n = 3), con un caso en contra |
 | El segmento con fecha es más agudo | El dolor más agudo es el de Lucía (posgrado); Mateo (certificación) va al día y tranquilo. Las tres tienen fecha, así que no hay con quién compararlas | Sin cambio: esta ronda no la puede medir |
 | La causa del atraso es organizar | Camilo y Lucía señalan el cansancio de pantalla y de estar de pie; preparar material hace abandonar herramientas, no atrasarse | Debilitada otra vez |
 | Plan automático | Mateo arma su propio plan por dominios en Excel y le funciona | Sin cambio: un caso en contra |
@@ -79,5 +125,6 @@ Lo que dejaron responde a dos causas. La primera es el trabajo de preparar el ma
 
 - **Más casos del trayecto.** Tres entrevistas alcanzan para orientar, no para cerrar. En la próxima ronda, empezar por el trayecto: cómo van, si llevan audífonos, si alguna vez respondieron algo en voz baja, y qué hicieron cuando no supieron si la respuesta estaba bien.
 - **Modo de voz de ChatGPT como alternativa.** Al agendar, preguntar si usan el modo de voz de alguna IA para repasar; quien sí, es el mejor candidato para comparar contra lo que ya usa.
-- **Tipo de pregunta.** Preguntar qué parte del material se responde en una frase y qué parte pide diagrama o cálculo, para estimar cuánto del examen cabe en voz.
-- **Prueba de solución.** Comparar contra el modo de voz de ChatGPT y contra el simulador que ya pagan, y medir si las correcciones se ciñen a la fuente vigente y local.
+- **Tipo de pregunta.** Pedir que repasen el temario de su examen (los dominios oficiales o el programa de la materia) y digan qué parte se responde en una frase y qué parte pide diagrama o cálculo, para sacar el porcentaje que cabe en voz por persona.
+- **Duración del trayecto.** Preguntar cuánto dura su trayecto y si alguna vez se les acabó el tope de voz de la IA antes de llegar.
+- **Prueba de solución.** Comparar contra el modo de voz de ChatGPT y contra el simulador que ya pagan, y medir si las correcciones se ciñen a la fuente vigente y local. Registrar en cada sesión la duración del trayecto y los minutos usados.

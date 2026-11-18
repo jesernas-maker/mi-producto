@@ -55,7 +55,7 @@ Comercial: conversión de free a pago e ingreso sostenido durante todo el ciclo 
 ## Creencias
 Referencias a product/overview.md, el registro único:
 - [opportunity: repaso-atrasado-examen-con-fecha] [value] #9: Quienes van atrasados en su repaso ya intentan hoy algún repaso activo (que alguien les pregunte, simulacros con IA, explicar en voz alta) y lo hacen menos de lo que quisieran, porque depende de tener a alguien disponible, de sentarse frente a una pantalla o de una IA que pierde el foco o se sale del material.
-- [product] [value] #3: El usuario objetivo tiene un trayecto diario (transporte público o carro) y estaría dispuesto a usarlo para estudiar de forma activa, respondiendo en voz alta o en voz baja. El ejercicio y los paseos no entran: son ratos para desconectarse.
+- [product] [value] #3: El usuario objetivo tiene un trayecto diario en transporte público y estaría dispuesto a usarlo para estudiar de forma activa, respondiendo en voz alta o en voz baja. Manejando no entra, por seguridad; el ejercicio y los paseos tampoco: son ratos para desconectarse.
 - [product] [value] #8: Repasar respondiendo por voz rinde más por hora que lo que el usuario hace hoy (releer, escuchar resúmenes o podcasts).
 - [product] [value] #4: Hay un segmento concreto, probablemente profesionales que preparan un examen con fecha, en el que este dolor es bastante más agudo, lo bastante para cambiar de herramienta.
 - [product] [value] #2: La causa principal de no sostener el repaso es el trabajo de organizarlo. Debilitada por la encuesta y las entrevistas; el enunciado ya no se apoya en ella.
