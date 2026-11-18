@@ -2,7 +2,7 @@
 opportunity: repaso-atrasado-examen-con-fecha
 status: chosen
 chosen: brainwhisper-tutor-voz
-tests:
+tests: product/tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md
 ---
 
 # Soluciones para: El repaso que funciona no cabe en el día
@@ -38,27 +38,12 @@ Un audio generado del material: pregunta, pausa para responder mentalmente o en 
 | A5 | mixed: pain evidenced, relief not tested. A favor, recordar en silencio funciona (secondary, g ≈ 0,61, research/2026-10-21-1739); en contra, nadie escucha la respuesta y lo que piden es corrección (3 de 3, real) | to check with tech, con menor exigencia que A1 (no evalúa respuestas habladas) | mixed (assumption): cobrable, pero compite con los audios gratuitos de NotebookLM | Quien lo escucha en el trayecto lo sostiene 2 semanas y siente que cierra sus dudas aunque nadie escuche su respuesta |
 
 ## Decisión
-La PM elige A1 para probar. El plan automático es la esencia de BrainWhisper, con la opción de repasar sin plan si la persona lo pide. Para validar si vale la pena construirlo sin construirlo, la PM propone probarlo con el kit de A4 sobre la IA de voz que ya usan, con el plan, el ritmo, las correcciones y la memoria de errores administrados a mano (prueba tipo concierge). Los umbrales y la parada temprana se fijan aquí, antes de la prueba (ver *A probar*); el diseño detallado queda para /design-solution-tests.
+La PM elige A1 para probar. El plan automático es la esencia de BrainWhisper, con la opción de repasar sin plan si la persona lo pide. Para validar si vale la pena construirlo sin construirlo, la PM propone probarlo con el kit de A4 sobre la IA de voz que ya usan, con el plan, el ritmo, las correcciones y la memoria de errores administrados a mano (prueba tipo concierge). Las pruebas, sus umbrales y la parada temprana están en tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md.
 
 La IA recomendó probar A1 y A4 en paralelo, con A4 como amenaza de A1. La PM elige solo A1 y usa A4 como instrumento de su prueba, por ser lo más barato. Registrado en corrections.md.
 
 ## A probar
-- A1. "Quien recibe el repaso con plan, corrección ceñida a su material y memoria de errores lo sostiene en su trayecto durante 3 semanas y lo prefiere a lo que usaba" (#10): si no se sostiene ni hecho a mano, no vale la pena automatizarlo. Se diseña en /design-solution-tests, con estas reglas fijadas antes de la prueba:
-  - **Se sostiene si**, en la mayoría de participantes, se cumplen las tres:
-    - 3 sesiones o más por semana durante las 3 semanas;
-    - el 80 % o más de sus sesiones de repaso en el trayecto pasan a la prueba (y no a ChatGPT de voz sin guía, recitarse solo o esperar a una compañera);
-    - al final, si tuviera que elegir, se queda con la prueba y no con lo que usaba.
-  - **Cae si** la mayoría lo deja antes de la tercera semana o vuelve a lo que usaba. Entre ambos, zona gris: se revisa con las causas de abandono.
-  - **Parada temprana, al cerrar la semana 1:** se para si la mayoría hizo menos de 2 sesiones, o si en la auditoría menos del 90 % de las correcciones se ciñen a la fuente vigente y local del participante.
-  - **Registro por sesión:**
-    - duración del trayecto y minutos usados;
-    - preguntas hechas y falladas;
-    - si alguna corrección se salió del material;
-    - si la sesión se cortó y por qué.
-  - **Causa de abandono:** a quien deje de repasar dos sesiones seguidas se le pregunta la última vez que no lo hizo y qué hizo en su lugar.
-  - **Errores entre sesiones:** cada error se clasifica (concepto, confusión entre dos términos, lectura del enunciado, dato exacto como una dosis o un puerto) y se sigue si vuelve a fallar en la sesión siguiente. Mide si la memoria de errores hace algo.
-  - **Al lado, como diagnóstico:** si sigue el plan que se le arma (#1) y si las preguntas se ciñen al material y no se repiten entre sesiones (#11).
-  - **Primero en la auditoría, por ser el riesgo técnico más alto:** que la corrección se ciña a la fuente (#12). Aunque las correcciones se administran a mano, la auditoría muestra qué tan difícil será automatizarlas.
+- A1. "Quien recibe el repaso con plan, corrección ceñida a su material y memoria de errores lo sostiene en su trayecto durante 3 semanas y lo prefiere a lo que usaba" (#10): si no se sostiene ni hecho a mano, no vale la pena automatizarlo. Antes, que se puedan generar buenas preguntas (#12), corregir ceñido a la fuente (#11) y programar la repetición espaciada (#13). Pruebas T1 a T4, umbrales y reglas de decisión en tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md.
 
 ## Propuesta de valor: BrainWhisper
 - **Dolor que alivia:** nadie le corrige en el momento cuando repasa hablando, y se queda con la duda (Lucía, Camilo; real); la IA general que pregunta pierde el foco y se repite (Eliana, real); teclear respuestas cansa y hace abandonar (Camilo, Lucía; real); armar el plan y el material le quita el tiempo que no tiene (Eliana, Camilo; real).

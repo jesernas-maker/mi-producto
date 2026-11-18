@@ -123,3 +123,20 @@ Ajustes tras el feedback de la unidad sobre el análisis, las alternativas y la 
   **AI proposed:** Contar el repaso de Lucía manejando como trayecto, y una creencia 3 con "transporte público o carro".
   **Human decided:** Manejando no cuenta como trayecto. La creencia 3 queda solo en transporte público; lo de Lucía manejando sigue en la transcripción y como prueba de que le falta corrección, pero no como un uso del producto. Su rato válido es el oficio en la casa.
   **Why:** Coherente con la decisión del 2026-10-27: hablar con un asistente mientras se conduce es un riesgo de seguridad. Consecuencia: el trayecto en transporte público queda con un solo caso real (Mateo), en tensión con la encuesta. Fijar el umbral antes evita leer el resultado a conveniencia, y la parada temprana ahorra esfuerzo si la señal es baja.
+
+Diseño de las pruebas de solución (`/design-solution-tests`). No es una `/review-evidence`.
+
+- **Artifact:** product/tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md, product/overview.md
+  **AI proposed:** Una sola prueba previa del kit (T1) con una clave de preguntas armada por una persona, que solo medía la corrección.
+  **Human decided:** Probar también que el kit genere las preguntas desde el material y que la repetición espaciada programe cada pregunta según su estado. Quedan tres pruebas previas (generación, corrección, repetición espaciada), iterables hasta 3 veces antes del concierge, y una creencia nueva (#13).
+  **Why:** Generar buenas preguntas y definir la frecuencia de cada una son críticos para BrainWhisper; con una clave hecha a mano no se probaban.
+
+- **Artifact:** product/tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** 5 participantes en el concierge (T4) o, si eran menos, tratarlo como primer paso antes de una prueba con 5.
+  **Human decided:** 2 participantes, Eliana y Mateo, y que T4 dé el resultado: si pasa, BrainWhisper va a la spec. "La mayoría" son las dos; el plan de exposición de la spec amplía a más usuarios.
+  **Why:** No se explicitó.
+
+- **Artifact:** product/tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md, product/overview.md
+  **AI proposed:** Cambiar la condición "al final la prefiere a lo que usaba" por un compromiso: acepta seguir hasta su examen y hace al menos una sesión la semana siguiente. Correr T1 a T3 con el material de los dos participantes.
+  **Human decided:** Aceptados.
+  **Why:** Preguntar qué prefiere es una opinión; aceptar y seguir es comportamiento. Con el material de los participantes se prueba lo mismo que usarán en T4.
