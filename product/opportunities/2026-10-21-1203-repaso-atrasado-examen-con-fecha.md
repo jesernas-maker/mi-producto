@@ -1,7 +1,7 @@
 ---
 status: framed
 segment: Adultos que trabajan y estudian, con poco tiempo de escritorio por compromisos laborales o personales, que preparan evaluaciones con fecha que no pueden mover (certificaciones profesionales o exámenes de posgrado); descubrimiento inicial en Colombia
-personas: andres-molina, valentina-rojas, matias-herrera, juliana-ospina, patricia-lozano, diego-fuentes, laura-quintero
+personas: andres-molina, valentina-rojas, matias-herrera, juliana-ospina, patricia-lozano, diego-fuentes, laura-quintero, natalia-cardenas, sebastian-arango
 ---
 
 # Oportunidad: El repaso que funciona no cabe en el día
@@ -16,6 +16,8 @@ Quienes preparan una evaluación con fecha mientras trabajan se atrasan en su re
 - Dra. Patricia Lozano (tertiary, opción B del B2B): no lo sufre. Profesora y coordinadora de posgrado que ve a sus estudiantes dejar el cronograma a mitad de semestre; puede informar la viabilidad de vender a universidades. Más fácil de contactar.
 - Diego Fuentes (negative): no lo sufre. Sostiene su rutina sin esfuerzo y disfruta planificarla; marca el límite del segmento.
 - Laura Quintero (negative, derivada): no lo sufre. Tiene fecha pero va al día siguiendo el programa, casi siempre con recursos gratuitos, y prefiere organizarse sola; marca el límite del segmento por el lado de quien tiene fecha (real: Angela y 7 respuestas de la encuesta; Camila, synthetic, en el mismo sentido). La disposición a cambiar la da no tener un sistema que funcione, no la fecha.
+- Natalia Cárdenas (primary, derivada): lo sufre. Trabaja y prepara una certificación o parciales de posgrado; ya repasa hablando en el trayecto y le falta quien le pregunte y la corrija en el momento (real: Lucía y Mateo).
+- Sebastián Arango (secondary, derivada): lo sufre en parte. Tiene cansancio de pantalla y de teclear y nadie que lo corrija, pero su material es casi todo visual y usa los ratos con manos libres para desconectarse (real: Camilo).
 - Faltante: ninguna.
 
 Condición del segmento que dejan las entrevistas (sin persona propia):
@@ -86,10 +88,11 @@ La encuesta está cerrada y no habrá más rondas: lo que queda abierto se respo
 Las fechas son una propuesta: no hay plazo definido, y una agenda sin fecha se vuelve una lista de lecturas.
 
 ## Ideas candidatas (no evaluadas)
-- Un sistema que asuma la planificación de la estrategia de retención y ejecute repasos activos por voz, sin pantalla, durante desplazamientos y tareas físicas (la propuesta original; coincide con el concepto actual de BrainWhisper).
-- Un compañero de estudio por voz que pregunta y escucha, pegado al material propio, que avanza entre sesiones sin repetirse.
-- Empezar con el material tal como lo tiene la persona (PDF, guías, notas), sin armar tarjetas ni resúmenes.
-- Una modalidad de solo escuchar para el transporte público, donde hablar en voz alta no cabe.
-- Modelo de cobro: suscripción mensual.
-- Modelo de cobro: pago por ciclo, con un pase que dura lo que dura la meta: hasta la fecha del examen en certificaciones; por materia o, como mucho, por semestre en posgrado y carrera.
-- Modelo de cobro: híbrido (ciclo completo más continuidad hacia el siguiente objetivo).
+Evaluadas en [solutions/2026-11-17-2159](../solutions/2026-11-17-2159-repaso-atrasado-examen-con-fecha.md).
+- Un sistema que asuma la planificación de la estrategia de retención y ejecute repasos activos por voz, sin pantalla, durante desplazamientos y tareas físicas (la propuesta original; coincide con el concepto actual de BrainWhisper). → chosen, como A1 `brainwhisper-tutor-voz`.
+- Un compañero de estudio por voz que pregunta y escucha, pegado al material propio, que avanza entre sesiones sin repetirse. → chosen, unida a A1.
+- Empezar con el material tal como lo tiene la persona (PDF, guías, notas), sin armar tarjetas ni resúmenes. → chosen, unida a A1.
+- Una modalidad de solo escuchar para el transporte público, donde hablar en voz alta no cabe. → parked, reformulada como A5 (cuestionario en audio con pausa).
+- Modelo de cobro: suscripción mensual. → discarded como alternativa: responde a la viabilidad (#5, #6) y se decide en la preventa.
+- Modelo de cobro: pago por ciclo, con un pase que dura lo que dura la meta: hasta la fecha del examen en certificaciones; por materia o, como mucho, por semestre en posgrado y carrera. → discarded como alternativa: se decide en la preventa.
+- Modelo de cobro: híbrido (ciclo completo más continuidad hacia el siguiente objetivo). → discarded como alternativa: se decide en la preventa.

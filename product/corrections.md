@@ -92,3 +92,12 @@ Ajuste de la encuesta al montarla en Forms. No es una `/review-evidence`.
   **AI proposed:** Rangos de gasto de bolsillo en P19: menos de 100.000 COP, de 100.000 a 500.000, de 500.000 a 1.500.000 y más de 1.500.000.
   **Human decided:** Los mismos rangos con un cero menos: menos de 10.000 COP, de 10.000 a 50.000, de 50.000 a 150.000 y más de 150.000.
   **Why:** No se explicitó.
+
+## 2026-11-17
+
+Exploración de soluciones (`/explore-solutions`) para repaso-atrasado-examen-con-fecha. No es una `/review-evidence`.
+
+- **Artifact:** product/solutions/2026-11-17-2159-repaso-atrasado-examen-con-fecha.md
+  **AI proposed:** Separar el plan automático del compañero de repaso por voz y parquearlo, por ser el mismo mecanismo con algo encima; luego probar en paralelo BrainWhisper y un kit para la IA de voz que ya usan, presentando el kit como la amenaza de BrainWhisper.
+  **Human decided:** El plan automático es la esencia de BrainWhisper (con la opción de repasar sin plan si la persona lo pide), así que compañero y plan son una sola alternativa. Se elige solo BrainWhisper, y el kit, con el plan, las correcciones y la memoria de errores administrados a mano, es el instrumento para probarlo, no una alternativa que compita.
+  **Why:** BrainWhisper debe hacerlo todo por la persona y llevar el ritmo del plan según el material; el kit administrado a mano es la forma más barata de validar si vale la pena construirlo.
