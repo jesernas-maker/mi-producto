@@ -1,7 +1,7 @@
 ---
 opportunity: repaso-atrasado-examen-con-fecha
 solutions: product/solutions/2026-11-17-2159-repaso-atrasado-examen-con-fecha.md
-status: designed
+status: analyzed
 ---
 
 # Pruebas de solución para: El repaso que funciona no cabe en el día
@@ -12,7 +12,7 @@ Se prueba A1, BrainWhisper (`brainwhisper-tutor-voz`): plan automático, repaso 
 T1 a T3 se corren juntas, en 1 a 2 días por iteración, con el material de los dos participantes de T4, y se leen por separado. El bloque se puede iterar hasta 3 veces antes de T4. Si no llega, T4 se corre con una persona corrigiendo detrás (wizard-of-oz) en lugar del kit.
 
 ## T1. brainwhisper-tutor-voz: generación de preguntas
-- **Estado de la prueba:** designed
+- **Estado de la prueba:** analyzed
 - **Creencia que se prueba:** #12, la parte de generar preguntas: "El sistema genera buenas preguntas desde material variado y evalúa respuestas habladas sin inventar, con la exactitud que pide el dominio (KPI System Accuracy Rate). Si tech no llega a esa exactitud, la creencia cae."
 - **Riesgo:** [feasibility]
 - **Tipo de prueba:** technical-test
@@ -27,7 +27,7 @@ T1 a T3 se corren juntas, en 1 a 2 días por iteración, con el material de los 
 - **Siguiente paso si pasa:** T2.
 
 ## T2. brainwhisper-tutor-voz: corrección
-- **Estado de la prueba:** designed
+- **Estado de la prueba:** analyzed
 - **Creencia que se prueba:** #11: "Las preguntas y correcciones se ciñen al material de la persona y no se repiten entre sesiones. Si los participantes reportan preguntas fuera del material o repetidas en buena parte de las sesiones, la creencia cae."
 - **Riesgo:** [value]
 - **Tipo de prueba:** technical-test
@@ -42,7 +42,7 @@ T1 a T3 se corren juntas, en 1 a 2 días por iteración, con el material de los 
 - **Siguiente paso si pasa:** T3.
 
 ## T3. brainwhisper-tutor-voz: repetición espaciada
-- **Estado de la prueba:** designed
+- **Estado de la prueba:** analyzed
 - **Creencia que se prueba:** #13: "Con el estado que deja cada respuesta hablada, la regla de repetición espaciada programa cada pregunta para la sesión que le toca, ajustada a la fecha del examen, con una carga diaria que cabe en un trayecto. Si el estado asignado no coincide con el juicio humano, o la carga no cabe en el trayecto, la creencia cae."
 - **Riesgo:** [feasibility]
 - **Tipo de prueba:** technical-test
@@ -57,7 +57,7 @@ T1 a T3 se corren juntas, en 1 a 2 días por iteración, con el material de los 
 - **Siguiente paso si pasa:** T4.
 
 ## T4. brainwhisper-tutor-voz: concierge de 3 semanas
-- **Estado de la prueba:** designed
+- **Estado de la prueba:** analyzed
 - **Creencia que se prueba:** #10: "Quien recibe el repaso con plan, corrección ceñida a su material y memoria de errores lo sostiene en su trayecto durante 3 semanas y lo prefiere a lo que usaba (ChatGPT de voz sin guía, recitarse solo, esperar a una compañera). Se sostiene si la mayoría hace 3 sesiones o más por semana durante las 3 semanas, pasa a la prueba el 80 % o más de su repaso en el trayecto y al final acepta seguir hasta su examen y hace al menos una sesión la semana siguiente. Si la mayoría lo deja antes de la tercera semana, o vuelve a lo que usaba, la creencia cae."
 - **Riesgo:** [value]
 - **Tipo de prueba:** concierge
@@ -90,4 +90,56 @@ T1 a T3 se corren juntas, en 1 a 2 días por iteración, con el material de los 
 
 ## Resultados
 
+Fuente: las hojas de captura en `product/solution tests/repaso examen atrasado.docx`.
+
+### T1. Generación de preguntas: inconclusive
+- **Lo que se observó:** el kit generó 20 preguntas, 10 por material (Security+ de Mateo y la certificación de IA de Eliana). Se revisaron el 2026-11-18, en una sola iteración.
+  - **Security+:** 9/10 tienen una sola respuesta en la fuente (la de hashing admite dos interpretaciones y se consultó a una persona externa). 10/10 importan para el examen. 9/10 se responden en una frase (la de cumplimiento pide una explicación larga). Los dominios quedan cubiertos.
+  - **IA:** 10/10 tienen una sola respuesta en la fuente. 9/10 importan para el examen (la de trazabilidad parece un detalle menor). 10/10 se responden en una frase. Los dominios quedan cubiertos.
+  - En dos comprobaciones iniciales no se registró la cita de la fuente; se completó después.
+- **Con quién y cuántos:** la PM; 20 de las 80 preguntas diseñadas (40 por material).
+- **Procedencia:** real
+- **Resultado:** inconclusive. Los cuatro umbrales se cumplen, pero tres quedan justo en el 90 % con 10 preguntas por material, así que una falla más los rompe. Se corrió la cuarta parte de lo diseñado, y con 10 preguntas no se puede afirmar que todos los dominios del material quedan cubiertos.
+- **Decisión:** correr T1 como se diseñó, con 40 preguntas por material y la cita de la fuente registrada desde el principio.
+
+### T2. Corrección: inconclusive
+- **Lo que se observó:** 3 sesiones simuladas por material el 2026-11-18, con 20 respuestas, todas con un error plantado.
+  - 19/20 correcciones se ciñen a la fuente. Una corrección sobre un dato exacto agregó contexto que no está en la fuente.
+  - 18/20 errores se detectaron. Un error de concepto se corrigió a medias, y un error de lectura del enunciado no se detectó.
+  - 2/20 preguntas se repitieron sin haberse fallado antes.
+  - El kit usó el material adjunto en todas las sesiones.
+  - Cada respuesta tomó entre 3 y 5 minutos.
+  - Dos transcripciones tuvieron ruido y hubo que escuchar el audio.
+- **Con quién y cuántos:** la PM; 20 respuestas.
+- **Procedencia:** real
+- **Resultado:** inconclusive. Tres condiciones se cumplen justo en el límite. La cuarta (que una sesión quepa en el tope de minutos de voz del plan de cada participante) no se puede juzgar, porque la hoja no registra ni el tope ni los minutos por sesión. Además, no se plantaron respuestas buenas, aunque el diseño pedía mitad y mitad, así que no se sabe si el kit marca como mala una respuesta correcta.
+- **Decisión:** correr T2 de nuevo como se diseñó: mitad de respuestas buenas y mitad malas, registrando los minutos por sesión y el tope de minutos del plan de cada participante. Si vuelven a fallar la detección de errores de lectura del enunciado y la corrección que agrega contexto ajeno, ajustar el kit en esos dos puntos.
+
+### T3. Repetición espaciada: inconclusive
+- **Lo que se observó:** el 2026-11-19 se corrieron 16 de 20 casos. Los otros 4 no corrieron por un error en la hoja intermedia de estados, y algunos estados se reconstruyeron a partir de registros anteriores.
+  - En 15/16 casos el estado del kit coincide con el de la PM. En el que no coincide, la PM dio la pregunta por fallada y el kit por dudosa.
+  - En los 16 casos la pregunta aparece en la sesión que le toca, la carga cabe en el trayecto y el material pasa antes del examen.
+  - La simulación cubrió las 3 semanas, pero falta el detalle de horarios de dos simulaciones.
+- **Con quién y cuántos:** la PM; 16 de 20 casos.
+- **Procedencia:** real
+- **Resultado:** inconclusive. El umbral pide que el 100 % de las preguntas aparezca en su sesión, y 4 casos no se comprobaron. Con estados reconstruidos y horarios faltantes, tampoco queda verificada del todo la carga diaria.
+- **Decisión:** correr de nuevo los 20 casos con la hoja de estados corregida, después del nuevo T2, porque usa sus sesiones. Revisar por qué el kit clasifica como dudosa una respuesta fallada.
+
+### T4. Concierge de 3 semanas: passed (decisión hipotética sobre un ensayo synthetic)
+- **Lo que se observó:** las participantes fueron dos personas sintéticas ("Eliana Rivas" y "Mateo Serrano"), no Eliana y Mateo del segmento. El ensayo fue del 2026-11-02 al 2026-11-27.
+  - **Eliana:** 3, 3 y 2 sesiones por semana; "7 de 9" en el trayecto; acepta seguir y hace una sesión la semana siguiente. Una sesión se cortó por mala conexión. Cita: "Cuando voy sentada lo hago, cuando el trayecto sale raro lo dejo."
+  - **Mateo:** 4, 3 y 3 sesiones por semana; "8 de 10" en el trayecto; acepta seguir y hace una sesión la semana siguiente. Pidió una sesión libre fuera del plan. Cita: "Me sirve más que improvisar preguntas, aunque algunas vuelven demasiado pronto."
+- **Con quién y cuántos:** 2 personas sintéticas.
+- **Procedencia:** synthetic
+- **Resultado:** passed por decisión de la PM, para un ejercicio hipotético. Por la regla escrita quedaba en zona gris: Mateo cumple las tres condiciones, y Eliana no cumple la 1 (2 sesiones en la semana 3) ni la 2 (7 de 9, un 78 %). No es evidencia sobre el segmento, y la creencia #10 no se anota en `overview.md`. Queda registrado en `corrections.md` (2026-11-25).
+- **Decisión:** continue, ready for spec, como ejercicio. La corrida real con Eliana y Mateo sigue pendiente, con estos ajustes a la hoja de captura:
+  - **Condición 2:** "7 de 9" no aclara si son sesiones hechas en el trayecto o repasos en el trayecto que pasaron a la prueba. Hay que registrar, por cada repaso en el trayecto, qué usó la persona: la prueba, ChatGPT de voz sin guía, recitarse sola o esperar a una compañera.
+  - **Parada temprana:** la auditoría semanal se hizo, pero su resultado no está, y tampoco el control al cerrar la semana 1 (sesiones y porcentaje de correcciones ceñidas). Hace falta un registro de ese control.
+  - **Condiciones de entrada:** no quedaron confirmadas (trayecto de 30 minutos o más y examen al menos 4 semanas después del inicio).
+  - **Causa del abandono:** las sesiones cortadas por conexión o audio y las sesiones de tema libre necesitan una columna propia. Así se separa una causa del producto de una causa de la vida de la persona, que es lo que distingue en la regla un resultado `change` de uno `inconclusive`.
+  - **Orden de las pruebas:** el ensayo empezó antes de que T1 a T3 validaran el kit. La corrida real va después de ellas.
+  - **Intervalos de repaso:** Mateo dice que "algunas vuelven demasiado pronto". Conviene revisar los intervalos de la regla de T3 antes de la corrida real.
+
 ## Decisión
+
+BrainWhisper (`brainwhisper-tutor-voz`) sigue a la spec **como ejercicio hipotético**. T4 se da por aprobada por decisión de la PM sobre un ensayo synthetic; por la regla escrita era zona gris y no es evidencia sobre el segmento. T1 a T3 son reales pero quedan inconclusive: sus umbrales se cumplen en el límite o no se pudieron comprobar, porque se corrieron con menos casos de los diseñados. La spec las hereda como riesgos de factibilidad pendientes (#12 y #13) y como riesgo de valor (#11). Antes de construir de verdad hay que correr T1 a T3 como se diseñaron, y luego la corrida real de T4.

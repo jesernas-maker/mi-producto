@@ -140,3 +140,10 @@ Diseño de las pruebas de solución (`/design-solution-tests`). No es una `/revi
   **AI proposed:** Cambiar la condición "al final la prefiere a lo que usaba" por un compromiso: acepta seguir hasta su examen y hace al menos una sesión la semana siguiente. Correr T1 a T3 con el material de los dos participantes.
   **Human decided:** Aceptados.
   **Why:** Preguntar qué prefiere es una opinión; aceptar y seguir es comportamiento. Con el material de los participantes se prueba lo mismo que usarán en T4.
+
+## 2026-11-25
+
+- **Artifact:** product/tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md (T4)
+  **AI proposed:** Tratar T4 como un ensayo synthetic, sin decisión; por su regla quedaba en zona gris (change) y la corrida real seguía pendiente.
+  **Human decided:** Dar T4 por passed (continue, ready for spec) como ejercicio hipotético.
+  **Why:** Para poder continuar el ejercicio hacia la spec; no es evidencia sobre el segmento y la corrida real de T4 sigue pendiente.
