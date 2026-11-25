@@ -12,12 +12,20 @@ Quien prepara un examen con fecha sabe que lo que mejor le funciona es que algui
 - **Natalia Cárdenas** (primary): este recorrido se escribe desde ella. Trabaja jornada completa, prepara una certificación o un posgrado con fecha, se mueve en transporte público y ya repasa hablando en el trayecto. Sale de entrevistas reales y coincide con el segmento que se probó.
 - **Andrés Molina** (primary, persona de diseño): mismo tipo de examen y 1 h 20 min diarios de transporte público, pero hoy usa el trayecto para escuchar podcasts. Adopta una herramienta si le ahorra tiempo desde el primer uso y la deja si le pide configurar algo. Que empiece a repasar en el trayecto en lugar de escuchar es la creencia #3, todavía abierta.
 - **Condiciones del segmento**, las mismas de la prueba: trayecto diario en transporte público de 30 minutos o más (manejando no) y examen al menos 4 semanas después de empezar.
+- **Dónde se repasa:** en el trayecto, que es lo que se probó y lo que mide la hipótesis, y también en casa: haciendo oficio, como Lucía, o de noche, cuando la pantalla cansa, como Camilo. El repaso en casa no se ha probado (#16). Para quien todavía no repasa en el bus, como Andrés, la casa puede ser el primer paso.
+
+## Fuera de esta versión
+- Preguntas de selección múltiple: quedan para una versión posterior, con su propia prueba, porque cambian el tipo de pregunta que probó T1.
+- Preguntas de diagrama o cálculo.
+- Repasar manejando, haciendo ejercicio o paseando.
+- Sincronización con Drive, Notion u OneDrive: en esta versión el material se sube como archivos.
+- B2B.
 
 ## Recorrido de uso
 1. **Detonante:** se acerca la fecha del examen, va atrasada y la compañera con la que repasaba no está disponible (Lucía: no cuadran los turnos). O ya probó repasar con una IA general y la dejó porque se salía del material o se repetía (Eliana).
 2. **Sube su material:** los PDF o documentos de su certificación, tal como los tiene, más la fecha del examen y lo que dura su trayecto. No crea tarjetas ni escribe preguntas: preparar el material es lo que la hizo abandonar Anki y Quizlet (Camilo, Lucía).
 3. **Recibe un plan hasta el examen**, organizado por los dominios de su material. Hoy hay quien arma ese plan a mano en un Excel (Mateo).
-4. **Empieza la sesión del día en el trayecto**, en el TransMilenio y con audífonos. BrainWhisper le hace las preguntas que le tocan hoy, todas de las que se responden en una frase.
+4. **Empieza la sesión del día en el trayecto**, en el TransMilenio y con audífonos, o en casa mientras hace oficio (Lucía). BrainWhisper le hace las preguntas que le tocan hoy, todas de las que se responden en una frase.
 5. **Responde corto y en voz baja**, sin mirar el celular: "la B", "AES porque es más rápido" (Mateo).
 6. **Recibe la corrección en el momento** *(aquí está el valor)*: si respondió bien o mal, por qué, y de qué parte de su material sale la respuesta. No se queda con la duda.
 7. **Llega a su parada o se cae la conexión:** la sesión queda guardada donde iba.
@@ -32,22 +40,24 @@ Como Natalia, quiero subir el material de mi certificación sin prepararlo, para
 Criterios de aceptación:
 - [ ] Natalia puede subir uno o varios PDF o documentos de texto y escribir la fecha del examen y la duración de su trayecto, sin crear ninguna pregunta ni tarjeta.
 - [ ] Al terminar de subir, ve los dominios o temas que BrainWhisper encontró en su material y puede empezar la primera sesión.
-- [ ] Si un archivo no tiene texto que se pueda leer (por ejemplo, un PDF escaneado), BrainWhisper le dice cuál es y sigue con los demás.
+- [ ] Al terminar de subir, ve qué parte de su material se puede repasar por voz y qué parte no (diagramas, cálculos), por dominio.
+- [ ] Si un archivo no tiene texto que se pueda leer (por ejemplo, un PDF escaneado o notas a mano), BrainWhisper le dice cuál es, le dice qué puede hacer para incluirlo y sigue con los demás.
 - [ ] Si la fecha del examen queda a menos de 4 semanas, BrainWhisper se lo dice y arma un plan que cubre todo el material al menos una vez antes de esa fecha.
 
 Se apoya en: insights/2026-11-17-1727-repaso-activo-manos-libres.md (5: se abandona lo que pide transcribir); insights/2026-11-17-1627-entrevistas-repaso-atrasado-examen.md (preparar el material le tomó mucho tiempo a Eliana)
 
-### Repasar por voz en el trayecto
-Como Natalia, quiero repasar respondiendo en voz baja durante mi trayecto en bus, para usar un rato que ya tengo sin sacar el celular ni el cuaderno.
+### Repasar por voz en el trayecto o en casa
+Como Natalia, quiero repasar respondiendo por voz en mi trayecto en bus o en casa mientras hago oficio, para usar ratos que ya tengo sin sacar el celular ni el cuaderno.
 
 Criterios de aceptación:
 - [ ] Natalia inicia la sesión del día con un solo toque y desde ahí la sesión avanza por voz, sin tocar la pantalla.
 - [ ] Todas las preguntas de la sesión se responden en una frase. Las de diagrama o cálculo no aparecen en voz.
-- [ ] La cantidad de preguntas de la sesión cabe en la duración de trayecto que Natalia registró.
+- [ ] En el trayecto, la cantidad de preguntas cabe en la duración que Natalia registró, y ningún tope de minutos corta la sesión antes de que termine esa duración.
+- [ ] En casa, Natalia dice por voz cuánto tiempo tiene o termina la sesión cuando quiera, y lo que respondió cuenta igual que en el trayecto.
 - [ ] Si BrainWhisper no entiende una respuesta dicha en voz baja, le pide que la repita una vez antes de marcarla como fallada.
-- [ ] Si la sesión se corta (por conexión o porque Natalia la cierra), al volver sigue desde la pregunta donde iba.
+- [ ] Si se cae la conexión, la sesión se retoma sola por voz desde la pregunta donde iba cuando vuelve la señal, sin que Natalia toque la pantalla.
 
-Se apoya en: insights/2026-11-17-1727-repaso-activo-manos-libres.md (2: el trayecto en transporte público; 4: lo que cabe en voz)
+Se apoya en: insights/2026-11-17-1727-repaso-activo-manos-libres.md (2: el trayecto en transporte público y la casa de quien vive con gente acostumbrada; 3: el tope de 15 a 20 minutos del modo de voz gratuito; 4: lo que cabe en voz)
 
 ### Corrección en el momento, ceñida a su material
 Como Natalia, quiero saber de inmediato si mi respuesta está bien y por qué, según mi propio material, para no quedarme con la duda ni aprender algo que no coincide con lo que me van a evaluar.
@@ -108,6 +118,8 @@ Probado en: product/tests/2026-11-17-2247-repaso-atrasado-examen-con-fecha.md
 
 Esta spec mantiene lo que se probó: el plan activo por defecto con opción de repasar sin plan, las preguntas por voz que se responden en una frase, la corrección ceñida a la fuente y la memoria de errores con la regla de repetición espaciada. También mantiene el segmento (trayecto en transporte público de 30 minutos o más, examen al menos 4 semanas después) y el material subido como archivos. Lo que en la prueba hacía la PM a mano (actualizar estados y preparar la sesión siguiente) aquí lo hace el sistema; eso es lo que la prueba concierge reemplazaba, no un cambio.
 
+El repaso en casa se agrega a esta versión y ninguna prueba lo cubrió: T4 midió solo el trayecto. Su resultado sigue aplicando al trayecto, y la hipótesis se mantiene sobre el trayecto. El repaso en casa queda como creencia sin probar (#16).
+
 ## Supuestos
 Referencias a product/overview.md, el registro único:
 - [feature: brainwhisper-tutor-voz] [value] #10: sostienen el repaso en su trayecto durante 3 semanas y lo prefieren a lo que usaban. Sin evidencia real: T4 fue un ensayo synthetic.
@@ -116,6 +128,7 @@ Referencias a product/overview.md, el registro único:
 - [feature: brainwhisper-tutor-voz] [feasibility] #13: la regla de repetición espaciada programa cada pregunta para su sesión, con una carga que cabe en el trayecto. T3 quedó inconclusive.
 - [feature: brainwhisper-tutor-voz] [usability] #14: la persona sube su material de estudio tal como lo tiene y en su primera sesión ya responde preguntas, sin tener que reorganizarlo antes.
 - [feature: brainwhisper-tutor-voz] [feasibility] #15: el sistema entiende respuestas cortas dichas en voz baja dentro de un transporte público lleno, sin pedir que se repitan en la mayoría de las preguntas.
+- [feature: brainwhisper-tutor-voz] [value] #16: quien tiene un rato en casa con las manos ocupadas, o de noche con la vista cansada de pantalla, repasa por voz en ese rato además del trayecto.
 - [product] [value] #3: tienen un trayecto en transporte público y lo usan para repasar de forma activa (para Andrés, en lugar de escuchar podcasts).
 - [product] [value] #8: repasar respondiendo por voz rinde más por hora que releer o escuchar.
 - [product] [value] #1: prefieren un plan que el sistema arma y ajusta solo.
