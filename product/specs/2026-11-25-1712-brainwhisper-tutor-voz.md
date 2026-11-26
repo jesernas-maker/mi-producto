@@ -120,6 +120,8 @@ Esta spec mantiene lo que se probó: el plan activo por defecto con opción de r
 
 El repaso en casa se agrega a esta versión y ninguna prueba lo cubrió: T4 midió solo el trayecto. Su resultado sigue aplicando al trayecto, y la hipótesis se mantiene sobre el trayecto. El repaso en casa queda como creencia sin probar (#16).
 
+Métricas: product/metrics/2026-11-26-1501-brainwhisper-tutor-voz.md
+
 ## Supuestos
 Referencias a product/overview.md, el registro único:
 - [feature: brainwhisper-tutor-voz] [value] #10: sostienen el repaso en su trayecto durante 3 semanas y lo prefieren a lo que usaban. Sin evidencia real: T4 fue un ensayo synthetic.
